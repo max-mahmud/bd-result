@@ -1,60 +1,9 @@
 import { useState } from "react";
 import img1 from "../assets/img7.jpg";
 import { FormControl, MenuItem, InputLabel, Select, TextField, Button } from "@mui/material";
-import { Link } from "react-router-dom";
-const data = [
-  {
-    title: "Diploma In Engineering",
-  },
-  {
-    title: "Diploma In Engineering (Army)",
-  },
-  {
-    title: "Diploma In Engineering (Naval)",
-  },
-  {
-    title: "Diploma In Tourism And Hospitality",
-  },
-  {
-    title: "Diploma In Textile Engineering",
-  },
-  {
-    title: "Diploma In Agriculture",
-  },
-  {
-    title: "Diploma In Fisheries",
-  },
-  {
-    title: "Diploma In Forestry",
-  },
-  {
-    title: "Diploma In Livestock",
-  },
-  {
-    title: "Diploma In Medical Technology",
-  },
-  {
-    title: "Certificate In Medical Ultrasound",
-  },
-  {
-    title: "Diploma In Commerce",
-  },
-  {
-    title: "Certificate In Marine Trade",
-  },
-  {
-    title: "Advanced Certificate Course",
-  },
-  {
-    title: "National Skill Standard Basic Certificate Course",
-  },
-  {
-    title: "HSC (Business Management)",
-  },
-  {
-    title: "HSC (Vocational)",
-  },
-];
+import data from "../assets/data.json";
+import Visit from "../components/Visit";
+
 const Individual = () => {
   const [exam, setExam] = useState("Diploma In Engineering");
   const [regulation, setRegulation] = useState(2022);
@@ -193,17 +142,7 @@ const Individual = () => {
           </div>
         </div>
         <div className=" p-4 w-1/3 mt-3 h-screen overflow-y-auto">
-          <div>
-            <h4 className="text-xl font-medium pb-4">Pages You May Visit</h4>
-            <div className="flex flex-col gap-2 text-lg text-slate-600 ">
-              <Link to="/">Individual Results</Link>
-              <Link to="/">Latest Results</Link>
-              <Link to="/">Institute Results</Link>
-              <Link to="/">CGPA Calculator</Link>
-              <Link to="/">Booklists</Link>
-              <Link to="/">Favorites</Link>
-            </div>
-          </div>
+          <Visit />
         </div>
       </div>
     </div>

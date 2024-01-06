@@ -23,15 +23,15 @@ const Footer = () => {
         </div>
         <div className=" flex-1 flex flex-col gap-3 items-start ">
           <Link to={"/result"}>Individual Results</Link>
-          <Link to={"/"}>Latest Results</Link>
-          <Link to={"/"}>Institute Results</Link>
-          <Link to={"/"}>Group Results</Link>
-          <Link to={"/"}>CGPA Calculator</Link>
-          <Link to={"/"}>BookList</Link>
+          <Link to={"/latest-results"}>Latest Results</Link>
+          <Link to={"/institute-results"}>Institute Results</Link>
+          <Link to={"/group-results"}>Group Results</Link>
+          <Link to={"/cgpa-calculator"}>CGPA Calculator</Link>
+          <Link to={"/booklists"}>BookList</Link>
         </div>
         <div className="  flex-1  flex flex-col gap-3 items-start ">
-          <Link to={"/"}>Favorites</Link>
-          <Link to={"/"}>About Us</Link>
+          <Link to={"/favorites"}>Favorites</Link>
+          <Link to={"/about"}>About Us</Link>
           <Link to={"/"}>Contact Us</Link>
           <Link to={"/"}>Privacy Policy</Link>
           <Link to={"/"}>Terms Of Service</Link>

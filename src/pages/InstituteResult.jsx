@@ -6,7 +6,7 @@ import { IoSearchSharp } from "react-icons/io5";
 const InstituteResult = () => {
   return (
     <div className="w-full h-screen overflow-hidden bg-slate-100">
-      <div className="container mx-auto pt-16 text-slate-800 flex w-full h-screen">
+      <div className="container mx-auto pt-20 text-slate-800 flex w-full h-screen">
         <div className=" w-3/4 h-full overflow-y-auto px-3">
           <div className=" bg-slate-100 mb-3 flex flex-col gap-5">
             <h4 className="text-3xl font-medium">Institute-Result</h4>

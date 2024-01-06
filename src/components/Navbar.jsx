@@ -79,39 +79,51 @@ const Navbar = () => {
             <IoHome />
             Home
           </Link>
-          <Link
-            to="/individual"
-            onClick={() => setShowShidebar(true)}
-            className="ml-6 flex gap-1 items-center "
-          >
+          <Link to="/result" onClick={() => setShowShidebar(true)} className="ml-6 flex gap-1 items-center ">
             <IoPerson />
             Individual Results
           </Link>
-          <Link to="/group" onClick={() => setShowShidebar(true)} className="ml-6 flex gap-1 items-center ">
+          <Link
+            to="/group-results"
+            onClick={() => setShowShidebar(true)}
+            className="ml-6 flex gap-1 items-center "
+          >
             <HiUserGroup />
             Group Results
           </Link>
           <Link
-            to="/institute"
+            to="/institute-results"
             onClick={() => setShowShidebar(true)}
             className="ml-6 flex gap-1 items-center "
           >
             <MdSchool />
             Institute Results
           </Link>
-          <Link to="/latest" onClick={() => setShowShidebar(true)} className="ml-6 flex gap-1 items-center ">
+          <Link
+            to="/latest-results"
+            onClick={() => setShowShidebar(true)}
+            className="ml-6 flex gap-1 items-center "
+          >
             <MdDateRange />
             Latest Results
           </Link>
-          <Link to="/latest" onClick={() => setShowShidebar(true)} className="ml-6 flex gap-1 items-center ">
+          <Link to="/notice" onClick={() => setShowShidebar(true)} className="ml-6 flex gap-1 items-center ">
             <IoNotificationsSharp />
             Notice Board
           </Link>
-          <Link to="/latest" onClick={() => setShowShidebar(true)} className="ml-6 flex gap-1 items-center ">
+          <Link
+            to="/booklists"
+            onClick={() => setShowShidebar(true)}
+            className="ml-6 flex gap-1 items-center "
+          >
             <MdMenuBook />
             BookList
           </Link>
-          <Link to="/cgpa" onClick={() => setShowShidebar(true)} className="ml-6 flex gap-1 items-center ">
+          <Link
+            to="/cgpa-calculator"
+            onClick={() => setShowShidebar(true)}
+            className="ml-6 flex gap-1 items-center "
+          >
             <ImCalculator />
             CGPA Calculator
           </Link>
@@ -123,11 +135,7 @@ const Navbar = () => {
             <IoHeart />
             Favorites
           </Link>
-          <Link
-            to="/favorites"
-            onClick={() => setShowShidebar(true)}
-            className="ml-6 flex gap-1 items-center "
-          >
+          <Link to="/about" onClick={() => setShowShidebar(true)} className="ml-6 flex gap-1 items-center ">
             <PiWarningCircleFill />
             About Us
           </Link>

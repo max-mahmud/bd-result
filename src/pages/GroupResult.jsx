@@ -2,59 +2,8 @@ import { useState, useEffect } from "react";
 import img1 from "../assets/img5.jpg";
 import { FormControl, MenuItem, InputLabel, Select, TextField, Button } from "@mui/material";
 import { Link } from "react-router-dom";
-const data = [
-  {
-    title: "Diploma In Engineering",
-  },
-  {
-    title: "Diploma In Engineering (Army)",
-  },
-  {
-    title: "Diploma In Engineering (Naval)",
-  },
-  {
-    title: "Diploma In Tourism And Hospitality",
-  },
-  {
-    title: "Diploma In Textile Engineering",
-  },
-  {
-    title: "Diploma In Agriculture",
-  },
-  {
-    title: "Diploma In Fisheries",
-  },
-  {
-    title: "Diploma In Forestry",
-  },
-  {
-    title: "Diploma In Livestock",
-  },
-  {
-    title: "Diploma In Medical Technology",
-  },
-  {
-    title: "Certificate In Medical Ultrasound",
-  },
-  {
-    title: "Diploma In Commerce",
-  },
-  {
-    title: "Certificate In Marine Trade",
-  },
-  {
-    title: "Advanced Certificate Course",
-  },
-  {
-    title: "National Skill Standard Basic Certificate Course",
-  },
-  {
-    title: "HSC (Business Management)",
-  },
-  {
-    title: "HSC (Vocational)",
-  },
-];
+import data from "../assets/data.json";
+import Visit from "../components/Visit";
 
 const allData = [
   {
@@ -96,7 +45,7 @@ const GroupResult = () => {
   return (
     <div className="w-full  min-h-screen overflow-hidden bg-slate-100">
       <div className=" container mt-16 mx-auto flex justify-center gap-5 px-5 pb-8 border-b border-slate-300">
-        <div className="w-2/4 mt-5 flex ">
+        <div className="w-2/4 pt-8 flex items-center ">
           <img className="w-[420px] h-[390px] ms-16" src={img1} alt="img" />
         </div>
         <div className="w-2/4 flex flex-col items-center justify-center ">
@@ -227,17 +176,7 @@ const GroupResult = () => {
           </div>
         </div>
         <div className=" p-4 w-1/3 mt-3 h-full overflow-y-auto">
-          <div>
-            <h4 className="text-xl font-medium pb-4">Pages You May Visit</h4>
-            <div className="flex flex-col gap-2 text-lg text-slate-600 ">
-              <Link to="/">Individual Results</Link>
-              <Link to="/">Latest Results</Link>
-              <Link to="/">Institute Results</Link>
-              <Link to="/">CGPA Calculator</Link>
-              <Link to="/">Booklists</Link>
-              <Link to="/">Favorites</Link>
-            </div>
-          </div>
+          <Visit />
         </div>
       </div>
     </div>
