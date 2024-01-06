@@ -7,6 +7,7 @@ const CgpaCalculate = () => {
   const [regulation, setRegulation] = useState(2022);
   const [roll, setRoll] = useState("");
   const [exam, setExam] = useState("Diploma In Engineering");
+  const [point, setPoint] = useState("");
   const [semeasterData, setSemeasterData] = useState({
     "1st": "",
     "2nd": "",
@@ -17,6 +18,56 @@ const CgpaCalculate = () => {
     "7th": "",
     "8th": "",
   });
+  const semeasterPoint = [
+    {
+      name: "1st",
+      2010: "5%",
+      2016: "5%",
+      2022: "5%",
+    },
+    {
+      name: "2nd",
+      2010: "5%",
+      2016: "5%",
+      2022: "5%",
+    },
+    {
+      name: "3rd",
+      2010: "5%",
+      2016: "5%",
+      2022: "10%",
+    },
+    {
+      name: "4th",
+      2010: "15%",
+      2016: "10%",
+      2022: "10%",
+    },
+    {
+      name: "5th",
+      2010: "15%",
+      2016: "15%",
+      2022: "20%",
+    },
+    {
+      name: "6th",
+      2010: "20%",
+      2016: "20%",
+      2022: "20%",
+    },
+    {
+      name: "7th",
+      2010: "25%",
+      2016: "25%",
+      2022: "20%",
+    },
+    {
+      name: "8th",
+      2010: "10%",
+      2016: "15%",
+      2022: "10%",
+    },
+  ];
 
   const handleChange = (pointName, value) => {
     setSemeasterData((prevState) => ({
@@ -27,7 +78,14 @@ const CgpaCalculate = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    console.log(semeasterData);
+
+    const totalPoints = Object.values(semeasterData).reduce((acc, curr, index) => {
+      const point = parseFloat(curr || 0);
+      const percentage = parseFloat(semeasterPoint[index][regulation]) / 100;
+      return acc + point * percentage;
+    }, 0);
+
+    setPoint(totalPoints.toFixed(2));
   };
 
   const resetData = () => {
@@ -63,7 +121,6 @@ const CgpaCalculate = () => {
               onChange={(e) => setRegulation(e.target.value)}
               style={{ height: 45 }}
             >
-              <MenuItem value={"any"}>Any</MenuItem>
               <MenuItem value={2010}>2010</MenuItem>
               <MenuItem value={2016}>2016</MenuItem>
               <MenuItem value={2022}>2022</MenuItem>
@@ -121,6 +178,11 @@ const CgpaCalculate = () => {
             <Button type="submit" variant="contained">
               =
             </Button>
+            {point && (
+              <div className="text-green-600 ">
+                CGPA <span className="text-3xl font-bold">{point}</span>
+              </div>
+            )}
             <Button onClick={resetData} variant="contained">
               AC
             </Button>

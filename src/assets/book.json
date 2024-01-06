@@ -1463,71 +1463,71 @@
   },
   "ElectronicsTechnology2022": {
     "1st Semester": [
-      "21011 Engineering Drawing",
-      "25711 Bangla-I",
-      "25712 English-I",
-      "25911 Mathematics -I",
-      "25912 Physics -I",
-      "26711 Basic Electricity",
-      "26811 Basic Electronics"
+      { "Code": "21011", "Subject": "Engineering Drawing" },
+      { "Code": "25711", "Subject": "Bangla-I" },
+      { "Code": "25712", "Subject": "English-I" },
+      { "Code": "25911", "Subject": "Mathematics -I" },
+      { "Code": "25912", "Subject": "Physics -I" },
+      { "Code": "26711", "Subject": "Basic Electricity" },
+      { "Code": "26811", "Subject": "Basic Electronics" }
     ],
     "2nd Semester": [
-      "25721 Bangla -II",
-      "25722 English-II",
-      "25811 Social Science",
-      "25812 Physical Education & Life Skills Development",
-      "25921 Mathematics-II",
-      "25922 Physics-II",
-      "26721 Electrical Circuits-I",
-      "26821 Electronic Devices and Circuits"
+      { "Code": "25721", "Subject": "Bangla -II" },
+      { "Code": "25722", "Subject": "English-II" },
+      { "Code": "25811", "Subject": "Social Science" },
+      { "Code": "25812", "Subject": "Physical Education & Life Skills Development" },
+      { "Code": "25921", "Subject": "Mathematics-II" },
+      { "Code": "25922", "Subject": "Physics-II" },
+      { "Code": "26721", "Subject": "Electrical Circuits-I" },
+      { "Code": "26821", "Subject": "Electronic Devices and Circuits" }
     ],
     "3rd Semester": [
-      "25913 Chemistry",
-      "25931 Mathematics-III",
-      "26611 Computer Office Application",
-      "26731 Electrical Circuits-II",
-      "26831 Digital Electronics-I",
-      "26832 Power Electronics"
+      { "Code": "25913", "Subject": "Chemistry" },
+      { "Code": "25931", "Subject": "Mathematics-III" },
+      { "Code": "26611", "Subject": "Computer Office Application" },
+      { "Code": "26731", "Subject": "Electrical Circuits-II" },
+      { "Code": "26831", "Subject": "Digital Electronics-I" },
+      { "Code": "26832", "Subject": "Power Electronics" }
     ],
     "4th Semester": [
-      "25841 Accounting",
-      "26741 Electrical Installation, Planning and Estimating",
-      "26742 DC Machine",
-      "26841 Digital Electronics-II",
-      "26842 Communication Engineering",
-      "26843 Networks, Filters and Transmission lines",
-      "26844 Electronic servicing"
+      { "Code": "25841", "Subject": "Accounting" },
+      { "Code": "26741", "Subject": "Electrical Installation, Planning and Estimating" },
+      { "Code": "26742", "Subject": "DC Machine" },
+      { "Code": "26841", "Subject": "Digital Electronics-II" },
+      { "Code": "26842", "Subject": "Communication Engineering" },
+      { "Code": "26843", "Subject": "Networks, Filters and Transmission lines" },
+      { "Code": "26844", "Subject": "Electronic servicing" }
     ],
     "5th Semester": [
-      "25851 Principles of Marketing",
-      "25852 Industrial Management",
-      "26667 Programming in C",
-      "26751 Generation of Electrical Power",
-      "26752 Electrical & Electronic Measurements-I",
-      "26851 Television Engineering",
-      "26852 Electronic Appliances",
-      "28654 Bio-Medical Instruments"
+      { "Code": "25851", "Subject": "Principles of Marketing" },
+      { "Code": "25852", "Subject": "Industrial Management" },
+      { "Code": "26667", "Subject": "Programming in C" },
+      { "Code": "26751", "Subject": "Generation of Electrical Power" },
+      { "Code": "26752", "Subject": "Electrical & Electronic Measurements-I" },
+      { "Code": "26851", "Subject": "Television Engineering" },
+      { "Code": "26852", "Subject": "Electronic Appliances" },
+      { "Code": "28654", "Subject": "Bio-Medical Instruments" }
     ],
     "6th Semester": [
-      "26761 AC Machine-I",
-      "26762 Transmission and Distribution of Electrical Power-I",
-      "26763 Electrical & Electronic Measurements-II",
-      "26861 TV Studio and Broadcasting",
-      "26862 Microcontroller and Embedded System",
-      "26863 PCB Design and Prototyping",
-      "29041 Environmental Studies"
+      { "Code": "26761", "Subject": "AC Machine-I" },
+      { "Code": "26762", "Subject": "Transmission and Distribution of Electrical Power-I" },
+      { "Code": "26763", "Subject": "Electrical & Electronic Measurements-II" },
+      { "Code": "26861", "Subject": "TV Studio and Broadcasting" },
+      { "Code": "26862", "Subject": "Microcontroller and Embedded System" },
+      { "Code": "26863", "Subject": "PCB Design and Prototyping" },
+      { "Code": "29041", "Subject": "Environmental Studies" }
     ],
     "7th Semester": [
-      "25831 Business Communication",
-      "25853 Innovation & Entrepreneurship",
-      "26771 AC Machine-II",
-      "26772 Transmission and Distribution of Electrical Power-II",
-      "26871 Microwave Radar and Navigation Aids",
-      "26872 Industrial Automation and PLC",
-      "26873 Control System and Robotics",
-      "26874 Electronic Project"
+      { "Code": "25831", "Subject": "Business Communication" },
+      { "Code": "25853", "Subject": "Innovation & Entrepreneurship" },
+      { "Code": "26771", "Subject": "AC Machine-II" },
+      { "Code": "26772", "Subject": "Transmission and Distribution of Electrical Power-II" },
+      { "Code": "26871", "Subject": "Microwave Radar and Navigation Aids" },
+      { "Code": "26872", "Subject": "Industrial Automation and PLC" },
+      { "Code": "26873", "Subject": "Control System and Robotics" },
+      { "Code": "26874", "Subject": "Electronic Project" }
     ],
-    "8th Semester": ["26881 Industrial Attachment & Project Presentation"]
+    "8th Semester": [{ "Code": "26881", "Subject": "Industrial Attachment & Project Presentation" }]
   },
   "FoodTechnology2022": {
     "1st Semester": [
@@ -1598,5 +1598,1088 @@
       { "Code": "26976", "Subject": "Food Engineering Project" }
     ],
     "8th Semester": [{ "Code": "26981", "Subject": "Industrial Attachment & Project Presentation" }]
+  },
+  "MechanicalTechnology2022": {
+    "1st Semester": [
+      { "Code": "21011", "Subject": "Engineering Drawing" },
+      { "Code": "25711", "Subject": "Bangla-I" },
+      { "Code": "25712", "Subject": "English-I" },
+      { "Code": "25812", "Subject": "Physical Education & Life Skills Development" },
+      { "Code": "25911", "Subject": "Mathematics -I" },
+      { "Code": "25912", "Subject": "Physics -I" },
+      { "Code": "27011", "Subject": "Basic Workshop Practice" },
+      { "Code": "27012", "Subject": "Machine Shop Practice I" }
+    ],
+    "2nd Semester": [
+      { "Code": "25721", "Subject": "Bangla -II" },
+      { "Code": "25722", "Subject": "English-II" },
+      { "Code": "25921", "Subject": "Mathematics-II" },
+      { "Code": "25922", "Subject": "Physics-II" },
+      { "Code": "26711", "Subject": "Basic Electricity" },
+      { "Code": "27021", "Subject": "Mechanical Engineering Drawing" },
+      { "Code": "27022", "Subject": "Mechanical Engineering Materials" }
+    ],
+    "3rd Semester": [
+      { "Code": "25811", "Subject": "Social Science" },
+      { "Code": "25831", "Subject": "Business Communication" },
+      { "Code": "25913", "Subject": "Chemistry" },
+      { "Code": "25931", "Subject": "Mathematics-III" },
+      { "Code": "26611", "Subject": "Computer Office Application" },
+      { "Code": "27031", "Subject": "Machine Shop Practice II" },
+      { "Code": "27231", "Subject": "RAC Cycles & Components" }
+    ],
+    "4th Semester": [
+      { "Code": "25841", "Subject": "Accounting" },
+      { "Code": "26811", "Subject": "Basic Electronics" },
+      { "Code": "27041", "Subject": "Engineering Mechanics" },
+      { "Code": "27042", "Subject": "Machine Shop Practice III" },
+      { "Code": "27043", "Subject": "Metallurgy" },
+      { "Code": "27131", "Subject": "Engineering Thermodynamics" },
+      { "Code": "29041", "Subject": "Environmental Studies" }
+    ],
+    "5th Semester": [
+      { "Code": "25852", "Subject": "Industrial Management" },
+      { "Code": "26667", "Subject": "Programming in C" },
+      { "Code": "27051", "Subject": "Fluid Mechanics & Machineries" },
+      { "Code": "27052", "Subject": "Mechanical Estimating & Costing" },
+      { "Code": "27053", "Subject": "Advanced Welding-I" },
+      { "Code": "27054", "Subject": "Foundry & Pattern Making" },
+      { "Code": "27055", "Subject": "Manufacturing Process" }
+    ],
+    "6th Semester": [
+      { "Code": "25851", "Subject": "Principles of Marketing" },
+      { "Code": "26211", "Subject": "Automobile Fundamentals" },
+      { "Code": "27061", "Subject": "Strength of Materials" },
+      { "Code": "27062", "Subject": "Mechanical Measurement & Metrology" },
+      { "Code": "27063", "Subject": "CAD & CAM" },
+      { "Code": "27064", "Subject": "Advanced Welding-II" },
+      { "Code": "27065", "Subject": "Plant Engineering & Maintenance" }
+    ],
+    "7th Semester": [
+      { "Code": "25853", "Subject": "Innovation & Entrepreneurship" },
+      { "Code": "27071", "Subject": "Design of Machine Elements" },
+      { "Code": "27072", "Subject": "Tool Design" },
+      { "Code": "27073", "Subject": "Heat Treatment of Metal" },
+      { "Code": "27074", "Subject": "Mechanical Engineering Project" },
+      { "Code": "27075", "Subject": "Production Planning & Control" },
+      { "Code": "29231", "Subject": "Mechatronics & PLC" }
+    ],
+    "8th Semester": [{ "Code": "27081", "Subject": "Industrial Attachment & Project Presentation" }]
+  },
+  "PowerTechnology2022": {
+    "1st Semester": [
+      { "Code": "21011", "Subject": "Engineering Drawing" },
+      { "Code": "25711", "Subject": "Bangla-I" },
+      { "Code": "25712", "Subject": "English-I" },
+      { "Code": "25811", "Subject": "Social Science" },
+      { "Code": "25812", "Subject": "Physical Education & Life Skills Development" },
+      { "Code": "25911", "Subject": "Mathematics -I" },
+      { "Code": "25912", "Subject": "Physics -I" },
+      { "Code": "27111", "Subject": "Power Engineering Fundamental" }
+    ],
+    "2nd Semester": [
+      { "Code": "25721", "Subject": "Bangla -II" },
+      { "Code": "25722", "Subject": "English-II" },
+      { "Code": "25921", "Subject": "Mathematics-II" },
+      { "Code": "25922", "Subject": "Physics-II" },
+      { "Code": "26611", "Subject": "Computer Office Application" },
+      { "Code": "26711", "Subject": "Basic Electricity" },
+      { "Code": "27011", "Subject": "Basic Workshop Practice" },
+      { "Code": "27121", "Subject": "Power Equipment Management & Safety" }
+    ],
+    "3rd Semester": [
+      { "Code": "25913", "Subject": "Chemistry" },
+      { "Code": "25931", "Subject": "Mathematics-III" },
+      { "Code": "26811", "Subject": "Basic Electronics" },
+      { "Code": "27012", "Subject": "Machine Shop Practice I" },
+      { "Code": "27131", "Subject": "Engineering Thermodynamics" },
+      { "Code": "27231", "Subject": "RAC Cycles & Components" }
+    ],
+    "4th Semester": [
+      { "Code": "25841", "Subject": "Accounting" },
+      { "Code": "26667", "Subject": "Programming in C" },
+      { "Code": "27041", "Subject": "Engineering Mechanics" },
+      { "Code": "27043", "Subject": "Metallurgy" },
+      { "Code": "27141", "Subject": "IC Engine Details" },
+      { "Code": "27142", "Subject": "Fuels & Lubricants" },
+      { "Code": "27143", "Subject": "Boiler Operation & Maintenance" }
+    ],
+    "5th Semester": [
+      { "Code": "25831", "Subject": "Business Communication" },
+      { "Code": "25852", "Subject": "Industrial Management" },
+      { "Code": "26241", "Subject": "Automotive Body Building" },
+      { "Code": "27051", "Subject": "Fluid Mechanics & Machineries" },
+      { "Code": "27053", "Subject": "Advanced Welding-I" },
+      { "Code": "27151", "Subject": "Fundamental of Hybrid & Electric Vehicle" },
+      { "Code": "27152", "Subject": "Power Plant Engineering" }
+    ],
+    "6th Semester": [
+      { "Code": "26764", "Subject": "Transmission and Distribution of Electrical Power" },
+      { "Code": "27061", "Subject": "Strength of Materials" },
+      { "Code": "27062", "Subject": "Mechanical Measurement & Metrology" },
+      { "Code": "27065", "Subject": "Plant Engineering & Maintenance" },
+      { "Code": "27161", "Subject": "Engine Overhauling, Inspection & Testing" },
+      { "Code": "29041", "Subject": "Environmental Studies" }
+    ],
+    "7th Semester": [
+      { "Code": "25851", "Subject": "Principles of Marketing" },
+      { "Code": "25853", "Subject": "Innovation & Entrepreneurship" },
+      { "Code": "27071", "Subject": "Design of Machine Elements" },
+      { "Code": "27073", "Subject": "Heat Treatment of Metal" },
+      { "Code": "27171", "Subject": "Service Station Operation & Estimating" },
+      { "Code": "27172", "Subject": "Automotive Electricity, Electronics & Communication System" },
+      { "Code": "27173", "Subject": "Power Engineering Project" }
+    ],
+    "8th Semester": [{ "Code": "27181", "Subject": "Industrial Attachment & Project Presentation" }]
+  },
+  "RACTechnology2022": {
+    "1st Semester": [
+      { "Code": "21011", "Subject": "Engineering Drawing" },
+      { "Code": "25711", "Subject": "Bangla-I" },
+      { "Code": "25712", "Subject": "English-I" },
+      { "Code": "25811", "Subject": "Social Science" },
+      { "Code": "25911", "Subject": "Mathematics -I" },
+      { "Code": "25912", "Subject": "Physics -I" },
+      { "Code": "27011", "Subject": "Basic Workshop Practice" },
+      { "Code": "27211", "Subject": "RAC Fundamental" }
+    ],
+    "2nd Semester": [
+      { "Code": "25721", "Subject": "Bangla -II" },
+      { "Code": "25722", "Subject": "English-II" },
+      { "Code": "25812", "Subject": "Physical Education & Life Skills Development" },
+      { "Code": "25921", "Subject": "Mathematics-II" },
+      { "Code": "25922", "Subject": "Physics-II" },
+      { "Code": "26711", "Subject": "Basic Electricity" },
+      { "Code": "27021", "Subject": "Mechanical Engineering Drawing" },
+      { "Code": "27022", "Subject": "Mechanical Engineering Materials" }
+    ],
+    "3rd Semester": [
+      { "Code": "25831", "Subject": "Business Communication" },
+      { "Code": "25913", "Subject": "Chemistry" },
+      { "Code": "25931", "Subject": "Mathematics-III" },
+      { "Code": "26211", "Subject": "Automobile Fundamentals" },
+      { "Code": "26811", "Subject": "Basic Electronics" },
+      { "Code": "27131", "Subject": "Engineering Thermodynamics" },
+      { "Code": "27231", "Subject": "RAC Cycles & Components" }
+    ],
+    "4th Semester": [
+      { "Code": "25841", "Subject": "Accounting" },
+      { "Code": "26611", "Subject": "Computer Office Application" },
+      { "Code": "27012", "Subject": "Machine Shop Practice I" },
+      { "Code": "27041", "Subject": "Engineering Mechanics" },
+      { "Code": "27241", "Subject": "Circuits and Electrical Machine in RAC" },
+      { "Code": "27242", "Subject": "Transport RAC" },
+      { "Code": "29041", "Subject": "Environmental Studies" }
+    ],
+    "5th Semester": [
+      { "Code": "25851", "Subject": "Principles of Marketing" },
+      { "Code": "26667", "Subject": "Programming in C" },
+      { "Code": "27043", "Subject": "Metallurgy" },
+      { "Code": "27051", "Subject": "Fluid Mechanics & Machineries" },
+      { "Code": "27052", "Subject": "Mechanical Estimating & Costing" },
+      { "Code": "27251", "Subject": "HVAC" },
+      { "Code": "27252", "Subject": "Commercial & Industrial RAC" }
+    ],
+    "6th Semester": [
+      { "Code": "25852", "Subject": "Industrial Management" },
+      { "Code": "27055", "Subject": "Manufacturing Process" },
+      { "Code": "27061", "Subject": "Strength of Materials" },
+      { "Code": "27063", "Subject": "CAD & CAM" },
+      { "Code": "27065", "Subject": "Plant Engineering & Maintenance" },
+      { "Code": "27261", "Subject": "Cooling & Heating Load Calculation" },
+      { "Code": "27262", "Subject": "RAC Plant Installation Maintenance & Operation" }
+    ],
+    "7th Semester": [
+      { "Code": "25853", "Subject": "Innovation & Entrepreneurship" },
+      { "Code": "27075", "Subject": "Production Planning & Control" },
+      { "Code": "27271", "Subject": "RAC System Analysis" },
+      { "Code": "27272", "Subject": "RAC Project" },
+      { "Code": "27273", "Subject": "Advance RAC" },
+      { "Code": "27274", "Subject": "RAC for Food Preservation" },
+      { "Code": "29231", "Subject": "Mechatronics & PLC" }
+    ],
+    "8th Semester": [{ "Code": "27081", "Subject": "Industrial Attachment & Project Presentation" }]
+  },
+  "DiplomaInFisheries2022": {
+    "1st Semester": [
+      { "Code": "25711", "Subject": "Bangla-I" },
+      { "Code": "25712", "Subject": "English-I" },
+      { "Code": "25812", "Subject": "Physical Education & Life Skills Development" },
+      { "Code": "25911", "Subject": "Mathematics -I" },
+      { "Code": "25912", "Subject": "Physics -I" },
+      { "Code": "25914", "Subject": "Chemistry-I" },
+      { "Code": "25915", "Subject": "Biology-I" },
+      { "Code": "27411", "Subject": "Introduction and Probability of Fisheries Resources in Bangladesh" }
+    ],
+    "2nd Semester": [
+      { "Code": "25721", "Subject": "Bangla -II" },
+      { "Code": "25722", "Subject": "English-II" },
+      { "Code": "25922", "Subject": "Physics-II" },
+      { "Code": "25924", "Subject": "Chemistry-II" },
+      { "Code": "25925", "Subject": "Biology-II" },
+      { "Code": "26611", "Subject": "Computer Office Application" },
+      { "Code": "27421", "Subject": "Limnology" }
+    ],
+    "3rd Semester": [
+      { "Code": "27431", "Subject": "Introduction to Bangladesh Agriculture" },
+      { "Code": "27432", "Subject": "Ichthyology" },
+      { "Code": "27433", "Subject": "Aquatic Ecology" },
+      { "Code": "27434", "Subject": "Aquaculture Engineering-1" },
+      { "Code": "27435", "Subject": "Livestock and Poultry Production" },
+      { "Code": "27436", "Subject": "Fish Physiology" }
+    ],
+    "4th Semester": [
+      { "Code": "27441", "Subject": "Fresh Water Aquaculture" },
+      { "Code": "27442", "Subject": "Open Water Aquaculture Management" },
+      { "Code": "27443", "Subject": "Fish Pathology & Parasitology" },
+      { "Code": "27444", "Subject": "Fish Nursery Management" },
+      { "Code": "27445", "Subject": "Fish Feed & Nutrition-I" },
+      { "Code": "27446", "Subject": "Aquaculture Engineering- II" },
+      { "Code": "27447", "Subject": "Aquatic Biodiversity Conservation & Management" }
+    ],
+    "5th Semester": [
+      { "Code": "27451", "Subject": "Modern Aquaculture" },
+      { "Code": "27452", "Subject": "Fish Feed and Nutrition-II" },
+      { "Code": "27453", "Subject": "Coastal Aquaculture Management" },
+      { "Code": "27454", "Subject": "Fisheries Microbiology" },
+      { "Code": "27455", "Subject": "Fisheries Extension" },
+      { "Code": "27456", "Subject": "Fish Disease & Control" },
+      { "Code": "27457", "Subject": "Fish Hatchery Management" }
+    ],
+    "6th Semester": [
+      { "Code": "27461", "Subject": "Shellfish Hatchery Management" },
+      { "Code": "27462", "Subject": "Environmental Management for Aquaculture" },
+      { "Code": "27463", "Subject": "Fish Harvesting, Handling & Preservation" },
+      { "Code": "27464", "Subject": "Fish Processing & Fishery Products" },
+      { "Code": "27465", "Subject": "Marine Fisheries Resources" },
+      { "Code": "27466", "Subject": "Agricultural Economics" }
+    ],
+    "7th Semester": [
+      { "Code": "27471", "Subject": "Fish Inspection & Quality Control" },
+      { "Code": "27472", "Subject": "Fisheries Marketing and Cooperatives" },
+      { "Code": "27473", "Subject": "Fisheries Resources Management and Planning" },
+      { "Code": "27474", "Subject": "Good Aquaculture Practices" },
+      { "Code": "27475", "Subject": "Genetics and Fish Breeding" },
+      { "Code": "27476", "Subject": "Integrated Aquaculture" },
+      { "Code": "27477", "Subject": "Self Employment and Entrepreneurship Development" }
+    ],
+    "8th Semester": [{ "Code": "27481", "Subject": "Field Attachment Training & Project Presentation" }]
+  },
+  "CeramicTechnology2022": {
+    "1st Semester": [
+      { "Code": "21011", "Subject": "Engineering Drawing" },
+      { "Code": "25711", "Subject": "Bangla-I" },
+      { "Code": "25712", "Subject": "English-I" },
+      { "Code": "25812", "Subject": "Physical Education & Life Skills Development" },
+      { "Code": "25911", "Subject": "Mathematics -I" },
+      { "Code": "25913", "Subject": "Chemistry" },
+      { "Code": "26711", "Subject": "Basic Electricity" },
+      { "Code": "27611", "Subject": "Geological Engineering" }
+    ],
+    "2nd Semester": [
+      { "Code": "25721", "Subject": "Bangla -II" },
+      { "Code": "25722", "Subject": "English-II" },
+      { "Code": "25912", "Subject": "Physics -I" },
+      { "Code": "25921", "Subject": "Mathematics-II" },
+      { "Code": "26811", "Subject": "Basic Electronics" },
+      { "Code": "27011", "Subject": "Basic Workshop Practice" },
+      { "Code": "27621", "Subject": "Ceramic Model Making" },
+      { "Code": "27622", "Subject": "Ceramic Engineering Materials-I" }
+    ],
+    "3rd Semester": [
+      { "Code": "25831", "Subject": "Business Communication" },
+      { "Code": "25922", "Subject": "Physics-II" },
+      { "Code": "25931", "Subject": "Mathematics-III" },
+      { "Code": "26611", "Subject": "Computer Office Application" },
+      { "Code": "27631", "Subject": "Model and Mould Fabrication-I" },
+      { "Code": "27632", "Subject": "Ceramic Engineering Materials-II" },
+      { "Code": "27633", "Subject": "Ceramic Plants and Equipment" }
+    ],
+    "4th Semester": [
+      { "Code": "25811", "Subject": "Social Science" },
+      { "Code": "25841", "Subject": "Accounting" },
+      { "Code": "27641", "Subject": "Ceramic Test and Calculation" },
+      { "Code": "27642", "Subject": "Ceramic Engineering Chemistry" },
+      { "Code": "27643", "Subject": "Refractories" },
+      { "Code": "27644", "Subject": "Model and Mould Fabrication-II" },
+      { "Code": "27645", "Subject": "Ceramic Body Preparation" }
+    ],
+    "5th Semester": [
+      { "Code": "25852", "Subject": "Industrial Management" },
+      { "Code": "27651", "Subject": "White Wares" },
+      { "Code": "27652", "Subject": "Heavy Clay Products" },
+      { "Code": "27653", "Subject": "Ceramic Instrumentation and Process Control" },
+      { "Code": "27654", "Subject": "Ceramic Fabrication and Drying" },
+      { "Code": "27655", "Subject": "Cement Manufacturing" },
+      { "Code": "27656", "Subject": "Fuels and Combustion" }
+    ],
+    "6th Semester": [
+      { "Code": "27661", "Subject": "Tiles and Sanitary Wares" },
+      { "Code": "27662", "Subject": "Drier, Kiln and Furnace" },
+      { "Code": "27663", "Subject": "Ceramic Quality Control" },
+      { "Code": "27664", "Subject": "Ceramic Glaze and Colour" },
+      { "Code": "27665", "Subject": "Ceramic Decoration and Printing" },
+      { "Code": "27745", "Subject": "Graphics Design" },
+      { "Code": "29041", "Subject": "Environmental Studies" }
+    ],
+    "7th Semester": [
+      { "Code": "25851", "Subject": "Principles of Marketing" },
+      { "Code": "25853", "Subject": "Innovation & Entrepreneurship" },
+      { "Code": "27063", "Subject": "CAD & CAM" },
+      { "Code": "27671", "Subject": "Ceramic Engineering Project" },
+      { "Code": "27672", "Subject": "Advanced Ceramic Products" },
+      { "Code": "27673", "Subject": "Kiln, Furnace Design and Construction" },
+      { "Code": "27674", "Subject": "Glass Manufacturing" }
+    ],
+    "8th Semester": [{ "Code": "27681", "Subject": "Industrial Attachment & Project Presentation" }]
+  },
+  "GlassTechnology2022": {
+    "1st Semester": [
+      { "Code": "21011", "Subject": "Engineering Drawing" },
+      { "Code": "25711", "Subject": "Bangla-I" },
+      { "Code": "25712", "Subject": "English-I" },
+      { "Code": "25831", "Subject": "Business Communication" },
+      { "Code": "25911", "Subject": "Mathematics -I" },
+      { "Code": "25913", "Subject": "Chemistry" },
+      { "Code": "26711", "Subject": "Basic Electricity" },
+      { "Code": "27711", "Subject": "Glass engineering materials - I" }
+    ],
+    "2nd Semester": [
+      { "Code": "25721", "Subject": "Bangla -II" },
+      { "Code": "25722", "Subject": "English-II" },
+      { "Code": "25811", "Subject": "Social Science" },
+      { "Code": "25812", "Subject": "Physical Education & Life Skills Development" },
+      { "Code": "25912", "Subject": "Physics -I" },
+      { "Code": "25921", "Subject": "Mathematics-II" },
+      { "Code": "26811", "Subject": "Basic Electronics" },
+      { "Code": "27721", "Subject": "Glass engineering materials - II" }
+    ],
+    "3rd Semester": [
+      { "Code": "25922", "Subject": "Physics-II" },
+      { "Code": "25931", "Subject": "Mathematics-III" },
+      { "Code": "26611", "Subject": "Computer Office Application" },
+      { "Code": "27011", "Subject": "Basic Workshop Practice" },
+      { "Code": "27731", "Subject": "Glass Mould & Die - I" },
+      { "Code": "27732", "Subject": "Glass Plants & Equipment" },
+      { "Code": "27733", "Subject": "Preparation of Glass Raw Materials" }
+    ],
+    "4th Semester": [
+      { "Code": "25841", "Subject": "Accounting" },
+      { "Code": "26875", "Subject": "Automation Engineering & PLC" },
+      { "Code": "27741", "Subject": "Glass Engineering Chemistry" },
+      { "Code": "27742", "Subject": "Glass Mould & Die - II" },
+      { "Code": "27743", "Subject": "Glass Fabrication - I" },
+      { "Code": "27744", "Subject": "Fuels and Combustion" },
+      { "Code": "27745", "Subject": "Graphics Design" }
+    ],
+    "5th Semester": [
+      { "Code": "25851", "Subject": "Principles of Marketing" },
+      { "Code": "25852", "Subject": "Industrial Management" },
+      { "Code": "27063", "Subject": "CAD & CAM" },
+      { "Code": "27655", "Subject": "Cement Manufacturing" },
+      { "Code": "27751", "Subject": "Glass Melting Furnace" },
+      { "Code": "27752", "Subject": "Glass Fabrication - II" },
+      { "Code": "27753", "Subject": "Ceramic Manufracturing - I" }
+    ],
+    "6th Semester": [
+      { "Code": "27643", "Subject": "Refractories" },
+      { "Code": "27761", "Subject": "Ceramic Manufacturing - II" },
+      { "Code": "27762", "Subject": "Heat Transfer & Thermodynamics" },
+      { "Code": "27763", "Subject": "Glass Quality Control - I" },
+      { "Code": "27764", "Subject": "Glass Products - I" },
+      { "Code": "27765", "Subject": "Glass Industrial Safety" },
+      { "Code": "29041", "Subject": "Environmental Studies" }
+    ],
+    "7th Semester": [
+      { "Code": "25853", "Subject": "Innovation & Entrepreneurship" },
+      { "Code": "27771", "Subject": "Glass Products - II" },
+      { "Code": "27772", "Subject": "Glass Quality Control - II" },
+      { "Code": "27773", "Subject": "Glass Decoration & Printing" },
+      { "Code": "27774", "Subject": "Glass House Instrumentation" },
+      { "Code": "27775", "Subject": "Furnace Design & Construction" },
+      { "Code": "27776", "Subject": "Glass Engineering Project" }
+    ],
+    "8th Semester": [{ "Code": "27781", "Subject": "Industrial Attachment & Project Presentation" }]
+  },
+  "SurveyingTechnology2022": {
+    "1st Semester": [
+      { "Code": "21011", "Subject": "Engineering Drawing" },
+      { "Code": "25711", "Subject": "Bangla-I" },
+      { "Code": "25712", "Subject": "English-I" },
+      { "Code": "25811", "Subject": "Social Science" },
+      { "Code": "25911", "Subject": "Mathematics -I" },
+      { "Code": "25912", "Subject": "Physics -I" },
+      { "Code": "26411", "Subject": "Civil Engineering Materials" },
+      { "Code": "26711", "Subject": "Basic Electricity" }
+    ],
+    "2nd Semester": [
+      { "Code": "25721", "Subject": "Bangla -II" },
+      { "Code": "25722", "Subject": "English-II" },
+      { "Code": "25812", "Subject": "Physical Education & Life Skills Development" },
+      { "Code": "25921", "Subject": "Mathematics-II" },
+      { "Code": "25922", "Subject": "Physics-II" },
+      { "Code": "26611", "Subject": "Computer Office Application" },
+      { "Code": "26811", "Subject": "Basic Electronics" },
+      { "Code": "27821", "Subject": "Basic Surveying" }
+    ],
+    "3rd Semester": [
+      { "Code": "25913", "Subject": "Chemistry" },
+      { "Code": "25931", "Subject": "Mathematics-III" },
+      { "Code": "25915", "Subject": "Biology-I" },
+      { "Code": "26434", "Subject": "Basic Construction Process" },
+      { "Code": "27831", "Subject": "Leveling" },
+      { "Code": "27832", "Subject": "Survey CAD" },
+      { "Code": "27833", "Subject": "Introduction of Geography" },
+      { "Code": "27834", "Subject": "Geodetic Surveying" }
+    ],
+    "4th Semester": [
+      { "Code": "25831", "Subject": "Business Communication" },
+      { "Code": "26431", "Subject": "Structural Mechanics" },
+      { "Code": "26447", "Subject": "Basic Estimating & Costing" },
+      { "Code": "27841", "Subject": "Aerial Photography and Photogrammetry" },
+      { "Code": "27842", "Subject": "Fundamentals of GIS" },
+      { "Code": "27843", "Subject": "Advanced Surveying-I" },
+      { "Code": "27844", "Subject": "Digital Cartography" }
+    ],
+    "5th Semester": [
+      { "Code": "25841", "Subject": "Accounting" },
+      { "Code": "26454", "Subject": "Theory of Structure" },
+      { "Code": "26621", "Subject": "Python Programming" },
+      { "Code": "27851", "Subject": "Advanced GIS" },
+      { "Code": "27852", "Subject": "Hydraulics & Hydrology" },
+      { "Code": "27853", "Subject": "Advanced Surveying-II" },
+      { "Code": "27854", "Subject": "Land Laws of Bangladesh" },
+      { "Code": "29041", "Subject": "Environmental Studies" }
+    ],
+    "6th Semester": [
+      { "Code": "25852", "Subject": "Industrial Management" },
+      { "Code": "26463", "Subject": "Transportation Engineering-I" },
+      { "Code": "26464", "Subject": "Design of Structure-I" },
+      { "Code": "27861", "Subject": "Principles of Topographic Survey" },
+      { "Code": "27862", "Subject": "Application of Python Programming" },
+      { "Code": "27863", "Subject": "Hydrographic Surveying" },
+      { "Code": "27864", "Subject": "Survey Project-I" },
+      { "Code": "27865", "Subject": "Preparation and Maintenances of Land Records" }
+    ],
+    "7th Semester": [
+      { "Code": "25851", "Subject": "Principles of Marketing" },
+      { "Code": "25853", "Subject": "Innovation & Entrepreneurship" },
+      { "Code": "26473", "Subject": "Transportation Engineering-II" },
+      { "Code": "26474", "Subject": "Design of Structure-II" },
+      { "Code": "27871", "Subject": "Mine Surveying" },
+      { "Code": "27872", "Subject": "Survey Project-II" },
+      { "Code": "27873", "Subject": "Remote Sensing" },
+      { "Code": "28871", "Subject": "Construction Management & Documentation" }
+    ],
+    "8th Semester": [{ "Code": "67881", "Subject": "Industrial Attachment & Project Presentation" }]
+  },
+  "AircraftMaintenanceAerospaceTechnology2022": {
+    "1st Semester": [
+      { "Code": "25711", "Subject": "Bangla-I" },
+      { "Code": "25712", "Subject": "English-I" },
+      { "Code": "25812", "Subject": "Physical Education & Life Skills Development" },
+      { "Code": "25911", "Subject": "Mathematics -I" },
+      { "Code": "25912", "Subject": "Physics -I" },
+      { "Code": "26711", "Subject": "Basic Electricity" },
+      { "Code": "27011", "Subject": "Basic Workshop Practice" },
+      { "Code": "28211", "Subject": "Basic Aerodynamics" }
+    ],
+    "2nd Semester": [
+      { "Code": "21011", "Subject": "Engineering Drawing" },
+      { "Code": "25721", "Subject": "Bangla -II" },
+      { "Code": "25722", "Subject": "English-II" },
+      { "Code": "25913", "Subject": "Chemistry" },
+      { "Code": "25921", "Subject": "Mathematics-II" },
+      { "Code": "25922", "Subject": "Physics-II" },
+      { "Code": "28221", "Subject": "Aircraft Structure & Repair" }
+    ],
+    "3rd Semester": [
+      { "Code": "25811", "Subject": "Social Science" },
+      { "Code": "25931", "Subject": "Mathematics-III" },
+      { "Code": "26611", "Subject": "Computer Office Application" },
+      { "Code": "26811", "Subject": "Basic Electronics" },
+      { "Code": "28231", "Subject": "Aircraft Materials" },
+      { "Code": "28232", "Subject": "Principles of Gas Turbine Engine" }
+    ],
+    "4th Semester": [
+      { "Code": "25841", "Subject": "Accounting" },
+      { "Code": "28241", "Subject": "Aircraft Fuel and Fire Protection System" },
+      { "Code": "28242", "Subject": "Aircraft Pneumatic & Ice-Rain Protection" },
+      { "Code": "28243", "Subject": "Aircraft Hardware" },
+      { "Code": "28244", "Subject": "Aircraft Hydraulic & Flight Controls" },
+      { "Code": "28245", "Subject": "Aircraft Gas Turbine Engine Construction and systems" },
+      { "Code": "29041", "Subject": "Environmental Studies" }
+    ],
+    "5th Semester": [
+      { "Code": "25852", "Subject": "Industrial Management" },
+      { "Code": "28251", "Subject": "Gas Turbine Engine Starting and Monitoring" },
+      { "Code": "28252", "Subject": "Aircraft Landing Gear" },
+      { "Code": "28253", "Subject": "Airconditioning and Pressurization system" },
+      { "Code": "28254", "Subject": "Aircraft Propellers" },
+      { "Code": "28255", "Subject": "Helicopter Aerodynamics and Structures" },
+      { "Code": "28356", "Subject": "Aircraft Digital Technique" }
+    ],
+    "6th Semester": [
+      { "Code": "25831", "Subject": "Business Communication" },
+      { "Code": "25851", "Subject": "Principles of Marketing" },
+      { "Code": "28261", "Subject": "Aircraft Equipment and Furnishing" },
+      { "Code": "28262", "Subject": "Helicopter Controls and Systems" },
+      { "Code": "28263", "Subject": "Engineering Ethics" },
+      { "Code": "28355", "Subject": "Aircraft Instrument System" },
+      { "Code": "28363", "Subject": "Aircraft Electrical Power" }
+    ],
+    "7th Semester": [
+      { "Code": "25853", "Subject": "Innovation & Entrepreneurship" },
+      { "Code": "28271", "Subject": "Aviation Legislation-Framework" },
+      { "Code": "28272", "Subject": "Air Navigation Orders" },
+      { "Code": "28273", "Subject": "Aircraft Maintenance Practices" },
+      { "Code": "28371", "Subject": "Human Factors" },
+      { "Code": "28372", "Subject": "Aircraft Cabin & Information System" },
+      { "Code": "28373", "Subject": "Safety Management system and Reliability Program" }
+    ],
+    "8th Semester": [{ "Code": "27081", "Subject": "Industrial Attachement & Project Presentation" }]
+  },
+  "AircraftMaintenanceAvionicsTechnology2022": {
+    "1st Semester": [
+      { "Code": "25711", "Subject": "Bangla-I" },
+      { "Code": "25712", "Subject": "English-I" },
+      { "Code": "25812", "Subject": "Physical Education & Life Skills Development" },
+      { "Code": "25911", "Subject": "Mathematics -I" },
+      { "Code": "25912", "Subject": "Physics -I" },
+      { "Code": "26711", "Subject": "Basic Electricity" },
+      { "Code": "27011", "Subject": "Basic Workshop Practice" },
+      { "Code": "28211", "Subject": "Basic Aerodynamics" }
+    ],
+    "2nd Semester": [
+      { "Code": "21011", "Subject": "Engineering Drawing" },
+      { "Code": "25721", "Subject": "Bangla -II" },
+      { "Code": "25722", "Subject": "English-II" },
+      { "Code": "25913", "Subject": "Chemistry" },
+      { "Code": "25921", "Subject": "Mathematics-II" },
+      { "Code": "25922", "Subject": "Physics-II" },
+      { "Code": "28221", "Subject": "Aircraft Structure & Repair" }
+    ],
+    "3rd Semester": [
+      { "Code": "25811", "Subject": "Social Science" },
+      { "Code": "25931", "Subject": "Mathematics-III" },
+      { "Code": "26611", "Subject": "Computer Office Application" },
+      { "Code": "26811", "Subject": "Basic Electronics" },
+      { "Code": "28231", "Subject": "Aircraft Materials" },
+      { "Code": "28331", "Subject": "Aircraft DC Power System" }
+    ],
+    "4th Semester": [
+      { "Code": "25841", "Subject": "Accounting" },
+      { "Code": "28243", "Subject": "Aircraft Hardware" },
+      { "Code": "28341", "Subject": "Aircraft AC Power" },
+      { "Code": "28342", "Subject": "Aircraft Radio and Radar" },
+      { "Code": "28343", "Subject": "Aircraft Communication System" },
+      { "Code": "28344", "Subject": "Aircraft System I" },
+      { "Code": "29041", "Subject": "Environmental Studies" }
+    ],
+    "5th Semester": [
+      { "Code": "25852", "Subject": "Industrial Management" },
+      { "Code": "28351", "Subject": "Turbine Engine Principles and Construction" },
+      { "Code": "28352", "Subject": "Aircraft Electronics" },
+      { "Code": "28353", "Subject": "Aircraft System- II" },
+      { "Code": "28354", "Subject": "Aircraft Navigation System" },
+      { "Code": "28355", "Subject": "Aircraft Instrument System" },
+      { "Code": "28356", "Subject": "Aircraft Digital Technique" }
+    ],
+    "6th Semester": [
+      { "Code": "25831", "Subject": "Business Communication" },
+      { "Code": "25851", "Subject": "Principles of Marketing" },
+      { "Code": "28263", "Subject": "Engineering Ethics" },
+      { "Code": "28361", "Subject": "Aircraft Autopilot System" },
+      { "Code": "28362", "Subject": "Electronics Instrument System" },
+      { "Code": "28363", "Subject": "Aircraft Electrical Power" },
+      { "Code": "28364", "Subject": "Propulsion" }
+    ],
+    "7th Semester": [
+      { "Code": "25853", "Subject": "Innovation & Entrepreneurship" },
+      { "Code": "28271", "Subject": "Aviation Legislation-Framework" },
+      { "Code": "28272", "Subject": "Air Navigation Orders" },
+      { "Code": "28273", "Subject": "Aircraft Maintenance Practices" },
+      { "Code": "28371", "Subject": "Human Factors" },
+      { "Code": "28372", "Subject": "Aircraft Cabin & Information System" },
+      { "Code": "28373", "Subject": "Safety Management system and Reliability Program" }
+    ],
+    "8th Semester": [{ "Code": "27081", "Subject": "Industrial Attachement & Project Presentation" }]
+  },
+  "ElectromedicalTechnology2022": {
+    "1st Semester": [
+      { "Code": "21011", "Subject": "Engineering Drawing" },
+      { "Code": "25711", "Subject": "Bangla-I" },
+      { "Code": "25712", "Subject": "English-I" },
+      { "Code": "25812", "Subject": "Physical Education & Life Skills Development" },
+      { "Code": "25911", "Subject": "Mathematics -I" },
+      { "Code": "25912", "Subject": "Physics -I" },
+      { "Code": "26711", "Subject": "Basic Electricity" },
+      { "Code": "28611", "Subject": "Human Anatomy and Physiology" }
+    ],
+    "2nd Semester": [
+      { "Code": "25721", "Subject": "Bangla -II" },
+      { "Code": "25722", "Subject": "English-II" },
+      { "Code": "25921", "Subject": "Mathematics-II" },
+      { "Code": "25922", "Subject": "Physics-II" },
+      { "Code": "26721", "Subject": "Electrical Circuits-I" },
+      { "Code": "26811", "Subject": "Basic Electronics" },
+      { "Code": "28621", "Subject": "Basic Biomedical Engineering" }
+    ],
+    "3rd Semester": [
+      { "Code": "25811", "Subject": "Social Science" },
+      { "Code": "25913", "Subject": "Chemistry" },
+      { "Code": "25931", "Subject": "Mathematics-III" },
+      { "Code": "26611", "Subject": "Computer Office Application" },
+      { "Code": "26731", "Subject": "Electrical Circuits-II" },
+      { "Code": "28631", "Subject": "Medical transducer and Sensors" },
+      { "Code": "28632", "Subject": "Operating Room Equipment" }
+    ],
+    "4th Semester": [
+      { "Code": "25841", "Subject": "Accounting" },
+      { "Code": "26741", "Subject": "Electrical Installation, Planning and Estimating" },
+      { "Code": "26742", "Subject": "DC Machine" },
+      { "Code": "26752", "Subject": "Electrical & Electronic Measurements-I" },
+      { "Code": "26845", "Subject": "Digital Electronics" },
+      { "Code": "28641", "Subject": "Dental Equipment" },
+      { "Code": "28642", "Subject": "Anesthesia and Respiratory Equipment" }
+    ],
+    "5th Semester": [
+      { "Code": "25851", "Subject": "Principles of Marketing" },
+      { "Code": "25852", "Subject": "Industrial Management" },
+      { "Code": "26667", "Subject": "Programming in C" },
+      { "Code": "26761", "Subject": "AC Machine-I" },
+      { "Code": "26763", "Subject": "Electrical & Electronic Measurements-II" },
+      { "Code": "28651", "Subject": "Radiology and Imaging Equipment" },
+      { "Code": "28652", "Subject": "Fibre Optics and Laser in Medical Field" },
+      { "Code": "28653", "Subject": "Physiotherapy and Rehabilitation Devices" }
+    ],
+    "6th Semester": [
+      { "Code": "26764", "Subject": "Transmission and Distribution of Electrical Power" },
+      { "Code": "26771", "Subject": "AC Machine-II" },
+      { "Code": "28661", "Subject": "Diagnostic and Laboratory Equipment" },
+      { "Code": "28662", "Subject": "Microprocessor and Biomedical Application" },
+      { "Code": "28663", "Subject": "Testing and Maintenance Biomedical Equipment" },
+      { "Code": "28664", "Subject": "CAD in Biomedical Engineering" },
+      { "Code": "29041", "Subject": "Environmental Studies" }
+    ],
+    "7th Semester": [
+      { "Code": "25831", "Subject": "Business Communication" },
+      { "Code": "25853", "Subject": "Innovation & Entrepreneurship" },
+      { "Code": "26773", "Subject": "Switch Gear and Protection" },
+      { "Code": "28671", "Subject": "Advanced Biomedical Equipment" },
+      { "Code": "28672", "Subject": "ICU and CCU Equipment" },
+      { "Code": "28673", "Subject": "Biomedical Engineering Project" },
+      { "Code": "28674", "Subject": "Medical Physics and Nuclear Instruments" }
+    ],
+    "8th Semester": [{ "Code": "28681", "Subject": "Industrial Attachment & Project Presentation" }]
+  },
+  "ConstructionTechnology2022": {
+    "1st Semester": [
+      { "Code": "21011", "Subject": "Engineering Drawing" },
+      { "Code": "25711", "Subject": "Bangla-I" },
+      { "Code": "25712", "Subject": "English-I" },
+      { "Code": "25811", "Subject": "Social Science" },
+      { "Code": "25911", "Subject": "Mathematics -I" },
+      { "Code": "25913", "Subject": "Chemistry" },
+      { "Code": "26411", "Subject": "Civil Engineering Materials" },
+      { "Code": "26711", "Subject": "Basic Electricity" }
+    ],
+    "2nd Semester": [
+      { "Code": "25721", "Subject": "Bangla -II" },
+      { "Code": "25722", "Subject": "English-II" },
+      { "Code": "25812", "Subject": "Physical Education & Life Skills Development" },
+      { "Code": "25912", "Subject": "Physics -I" },
+      { "Code": "25921", "Subject": "Mathematics-II" },
+      { "Code": "26421", "Subject": "Civil Engineering Drawing" },
+      { "Code": "26811", "Subject": "Basic Electronics" },
+      { "Code": "27011", "Subject": "Basic Workshop Practice" }
+    ],
+    "3rd Semester": [
+      { "Code": "25831", "Subject": "Business Communication" },
+      { "Code": "25922", "Subject": "Physics-II" },
+      { "Code": "25931", "Subject": "Mathematics-III" },
+      { "Code": "26431", "Subject": "Structural Mechanics" },
+      { "Code": "26432", "Subject": "Surveying-I" },
+      { "Code": "26611", "Subject": "Computer Office Application" },
+      { "Code": "28831", "Subject": "Construction Methodology-I" }
+    ],
+    "4th Semester": [
+      { "Code": "25841", "Subject": "Accounting" },
+      { "Code": "26442", "Subject": "Estimating & Costing-I" },
+      { "Code": "26443", "Subject": "Civil CAD-I" },
+      { "Code": "26444", "Subject": "Surveying-II" },
+      { "Code": "26445", "Subject": "Geotechnical Engineering" },
+      { "Code": "26446", "Subject": "Hydrology" },
+      { "Code": "28841", "Subject": "Construction Methodology-II" },
+      { "Code": "28842", "Subject": "Construction Safety" }
+    ],
+    "5th Semester": [
+      { "Code": "25852", "Subject": "Industrial Management" },
+      { "Code": "26451", "Subject": "Foundation Engineering" },
+      { "Code": "26452", "Subject": "Civil CAD-II" },
+      { "Code": "26453", "Subject": "Surveying-III" },
+      { "Code": "26454", "Subject": "Theory of Structure" },
+      { "Code": "26455", "Subject": "Water Supply Engineering" },
+      { "Code": "29041", "Subject": "Environmental Studies" }
+    ],
+    "6th Semester": [
+      { "Code": "26456", "Subject": "Hydraulics" },
+      { "Code": "26461", "Subject": "Water Resources Engineering" },
+      { "Code": "26463", "Subject": "Transportation Engineering-I" },
+      { "Code": "26464", "Subject": "Design of Structure-I" },
+      { "Code": "28861", "Subject": "Advanced Construction" },
+      { "Code": "28862", "Subject": "Building Facilities & Law" },
+      { "Code": "28863", "Subject": "Steel Structures" }
+    ],
+    "7th Semester": [
+      { "Code": "25851", "Subject": "Principles of Marketing" },
+      { "Code": "25853", "Subject": "Innovation & Entrepreneurship" },
+      { "Code": "26472", "Subject": "Sanitary Engineering" },
+      { "Code": "26473", "Subject": "Transportation Engineering-II" },
+      { "Code": "26474", "Subject": "Design of Structure-II" },
+      { "Code": "26475", "Subject": "Estimating & Costing-II" },
+      { "Code": "28871", "Subject": "Construction Management & Documentation" },
+      { "Code": "28872", "Subject": "Construction Engineering Project" }
+    ],
+    "8th Semester": [{ "Code": "28881", "Subject": "Industrial Attachment & Project Presentation" }]
+  },
+  "EnvironmentalTechnology2022": {
+    "1st Semester": [
+      { "Code": "21011", "Subject": "Engineering Drawing" },
+      { "Code": "25711", "Subject": "Bangla-I" },
+      { "Code": "25712", "Subject": "English-I" },
+      { "Code": "25811", "Subject": "Social Science" },
+      { "Code": "25911", "Subject": "Mathematics -I" },
+      { "Code": "25913", "Subject": "Chemistry" },
+      { "Code": "26711", "Subject": "Basic Electricity" },
+      { "Code": "29011", "Subject": "Basic Environmental Engineering" }
+    ],
+    "2nd Semester": [
+      { "Code": "25721", "Subject": "Bangla -II" },
+      { "Code": "25722", "Subject": "English-II" },
+      { "Code": "25912", "Subject": "Physics -I" },
+      { "Code": "25921", "Subject": "Mathematics-II" },
+      { "Code": "26421", "Subject": "Civil Engineering Drawing" },
+      { "Code": "26611", "Subject": "Computer Office Application" },
+      { "Code": "26811", "Subject": "Basic Electronics" }
+    ],
+    "3rd Semester": [
+      { "Code": "25922", "Subject": "Physics-II" },
+      { "Code": "25931", "Subject": "Mathematics-III" },
+      { "Code": "26411", "Subject": "Civil Engineering Materials" },
+      { "Code": "26432", "Subject": "Surveying-I" },
+      { "Code": "26433", "Subject": "Construction Process-I" },
+      { "Code": "27011", "Subject": "Basic Workshop Practice" },
+      { "Code": "29031", "Subject": "Water Quality Engineering" }
+    ],
+    "4th Semester": [
+      { "Code": "25812", "Subject": "Physical Education & Life Skills Development" },
+      { "Code": "25831", "Subject": "Business Communication" },
+      { "Code": "26431", "Subject": "Structural Mechanics" },
+      { "Code": "26442", "Subject": "Estimating & Costing-I" },
+      { "Code": "26443", "Subject": "Civil CAD-I" },
+      { "Code": "26444", "Subject": "Surveying-II" },
+      { "Code": "26445", "Subject": "Geotechnical Engineering" },
+      { "Code": "29042", "Subject": "Environmental Chemistry" }
+    ],
+    "5th Semester": [
+      { "Code": "25841", "Subject": "Accounting" },
+      { "Code": "26441", "Subject": "Construction Process-II" },
+      { "Code": "26454", "Subject": "Theory of Structure" },
+      { "Code": "26455", "Subject": "Water Supply Engineering" },
+      { "Code": "29051", "Subject": "Water and Wastewater Engineering" },
+      { "Code": "29052", "Subject": "Environmental Microbiology" },
+      { "Code": "29053", "Subject": "Geographic Information System (GIS) & Remote Sensing" }
+    ],
+    "6th Semester": [
+      { "Code": "25852", "Subject": "Industrial Management" },
+      { "Code": "26456", "Subject": "Hydraulics" },
+      { "Code": "26463", "Subject": "Transportation Engineering-I" },
+      { "Code": "26464", "Subject": "Design of Structure-I" },
+      { "Code": "29061", "Subject": "Environmental Impact Assessment (EIA) & Environmental Regulation" },
+      { "Code": "29062", "Subject": "Air Pollution & Control Engineering" },
+      { "Code": "29063", "Subject": "Environmental Auditing" },
+      { "Code": "29064", "Subject": "Health, Safety & Environment" }
+    ],
+    "7th Semester": [
+      { "Code": "25851", "Subject": "Principles of Marketing" },
+      { "Code": "25853", "Subject": "Innovation & Entrepreneurship" },
+      { "Code": "26472", "Subject": "Sanitary Engineering" },
+      { "Code": "26475", "Subject": "Estimating & Costing-II" },
+      { "Code": "28871", "Subject": "Construction Management & Documentation" },
+      { "Code": "29071", "Subject": "Energy & Environmental Engineering" },
+      { "Code": "29072", "Subject": "Solid and Hazardous Waste Engineering" },
+      { "Code": "29073", "Subject": "Climate Change and Adaptability" }
+    ],
+    "8th Semester": [{ "Code": "29081", "Subject": "Industrial Attachment & Project Presentation" }]
+  },
+  "MechatronicsTechnology2022": {
+    "1st Semester": [
+      { "Code": "21011", "Subject": "Engineering Drawing" },
+      { "Code": "25711", "Subject": "Bangla-I" },
+      { "Code": "25712", "Subject": "English-I" },
+      { "Code": "25812", "Subject": "Physical Education & Life Skills Development" },
+      { "Code": "25911", "Subject": "Mathematics -I" },
+      { "Code": "25912", "Subject": "Physics -I" },
+      { "Code": "26711", "Subject": "Basic Electricity" },
+      { "Code": "27011", "Subject": "Basic Workshop Practice" }
+    ],
+    "2nd Semester": [
+      { "Code": "25721", "Subject": "Bangla -II" },
+      { "Code": "25722", "Subject": "English-II" },
+      { "Code": "25921", "Subject": "Mathematics-II" },
+      { "Code": "25922", "Subject": "Physics-II" },
+      { "Code": "26811", "Subject": "Basic Electronics" },
+      { "Code": "27012", "Subject": "Machine Shop Practice I" },
+      { "Code": "27021", "Subject": "Mechanical Engineering Drawing" }
+    ],
+    "3rd Semester": [
+      { "Code": "25811", "Subject": "Social Science" },
+      { "Code": "25831", "Subject": "Business Communication" },
+      { "Code": "25913", "Subject": "Chemistry" },
+      { "Code": "25931", "Subject": "Mathematics-III" },
+      { "Code": "26611", "Subject": "Computer Office Application" },
+      { "Code": "26821", "Subject": "Electronic Devices and Circuits" },
+      { "Code": "27022", "Subject": "Mechanical Engineering Materials" },
+      { "Code": "29232", "Subject": "Basic Mechatronics" }
+    ],
+    "4th Semester": [
+      { "Code": "25841", "Subject": "Accounting" },
+      { "Code": "26667", "Subject": "Programming in C" },
+      { "Code": "27031", "Subject": "Machine Shop Practice II" },
+      { "Code": "27041", "Subject": "Engineering Mechanics" },
+      { "Code": "27131", "Subject": "Engineering Thermodynamics" },
+      { "Code": "29041", "Subject": "Environmental Studies" },
+      { "Code": "29241", "Subject": "Electrical Circuits & Machine" }
+    ],
+    "5th Semester": [
+      { "Code": "25851", "Subject": "Principles of Marketing" },
+      { "Code": "25852", "Subject": "Industrial Management" },
+      { "Code": "26845", "Subject": "Digital Electronics" },
+      { "Code": "27051", "Subject": "Fluid Mechanics & Machineries" },
+      { "Code": "27055", "Subject": "Manufacturing Process" },
+      { "Code": "27151", "Subject": "Fundamental of Hybrid & Electric Vehicle" },
+      { "Code": "27152", "Subject": "Power Plant Engineering" },
+      { "Code": "29251", "Subject": "Programmable Logic Controller" }
+    ],
+    "6th Semester": [
+      { "Code": "26833", "Subject": "Industrial Electronics" },
+      { "Code": "27061", "Subject": "Strength of Materials" },
+      { "Code": "27062", "Subject": "Mechanical Measurement & Metrology" },
+      { "Code": "27063", "Subject": "CAD & CAM" },
+      { "Code": "29261", "Subject": "Microprocessor & Microcontroller Applications" },
+      { "Code": "29262", "Subject": "Instrumentation & Control System" }
+    ],
+    "7th Semester": [
+      { "Code": "25853", "Subject": "Innovation & Entrepreneurship" },
+      { "Code": "27071", "Subject": "Design of Machine Elements" },
+      { "Code": "27075", "Subject": "Production Planning & Control" },
+      { "Code": "29271", "Subject": "Mechatronics Engineering Project" },
+      { "Code": "29272", "Subject": "Industrial Automation System Design" },
+      { "Code": "29273", "Subject": "Networks & Communications" },
+      { "Code": "29274", "Subject": "Robotics, Manufacture & Process Engineering" }
+    ],
+    "8th Semester": [{ "Code": "27081", "Subject": "Industrial Attachment & Project Presentation" }]
+  },
+  "TelecommunicationTechnology2022": {
+    "1st Semester": [
+      { "Code": "21011", "Subject": "Engineering Drawing" },
+      { "Code": "25711", "Subject": "Bangla-I" },
+      { "Code": "25712", "Subject": "English-I" },
+      { "Code": "25911", "Subject": "Mathematics -I" },
+      { "Code": "25912", "Subject": "Physics -I" },
+      { "Code": "26711", "Subject": "Basic Electricity" },
+      { "Code": "29411", "Subject": "Basics of Telecommunication" }
+    ],
+    "2nd Semester": [
+      { "Code": "25721", "Subject": "Bangla -II" },
+      { "Code": "25722", "Subject": "English-II" },
+      { "Code": "25811", "Subject": "Social Science" },
+      { "Code": "25812", "Subject": "Physical Education & Life Skills Development" },
+      { "Code": "25921", "Subject": "Mathematics-II" },
+      { "Code": "25922", "Subject": "Physics-II" },
+      { "Code": "26721", "Subject": "Electrical Circuits-I" },
+      { "Code": "26811", "Subject": "Basic Electronics" }
+    ],
+    "3rd Semester": [
+      { "Code": "25913", "Subject": "Chemistry" },
+      { "Code": "25931", "Subject": "Mathematics-III" },
+      { "Code": "26611", "Subject": "Computer Office Application" },
+      { "Code": "26731", "Subject": "Electrical Circuits-II" },
+      { "Code": "26821", "Subject": "Electronic Devices and Circuits" },
+      { "Code": "29431", "Subject": "Telecom Workshop and Outside Plant" }
+    ],
+    "4th Semester": [
+      { "Code": "25841", "Subject": "Accounting" },
+      { "Code": "26667", "Subject": "Programming in C" },
+      { "Code": "26741", "Subject": "Electrical Installation, Planning and Estimating" },
+      { "Code": "26845", "Subject": "Digital Electronics" },
+      { "Code": "29441", "Subject": "Radio and TV Engineering" },
+      { "Code": "29442", "Subject": "IT Support and IoT Basics" },
+      { "Code": "29443", "Subject": "Data Communications and Networking" }
+    ],
+    "5th Semester": [
+      { "Code": "25851", "Subject": "Principles of Marketing" },
+      { "Code": "25852", "Subject": "Industrial Management" },
+      { "Code": "26742", "Subject": "DC Machine" },
+      { "Code": "26751", "Subject": "Generation of Electrical Power" },
+      { "Code": "26752", "Subject": "Electrical & Electronic Measurements-I" },
+      { "Code": "26853", "Subject": "Microprocessor & Microcontroller" },
+      { "Code": "29451", "Subject": "Multimedia and Webpage Design" }
+    ],
+    "6th Semester": [
+      { "Code": "26761", "Subject": "AC Machine-I" },
+      { "Code": "26763", "Subject": "Electrical & Electronic Measurements-II" },
+      { "Code": "26764", "Subject": "Transmission and Distribution of Electrical Power" },
+      { "Code": "29041", "Subject": "Environmental Studies" },
+      { "Code": "29462", "Subject": "Wireless and Mobile Communication" },
+      { "Code": "29463", "Subject": "Signals and Switching System" }
+    ],
+    "7th Semester": [
+      { "Code": "25831", "Subject": "Business Communication" },
+      { "Code": "25853", "Subject": "Innovation & Entrepreneurship" },
+      { "Code": "26771", "Subject": "AC Machine-II" },
+      { "Code": "26773", "Subject": "Switch Gear and Protection" },
+      { "Code": "29471", "Subject": "Microwave Engineering and Antennas" },
+      { "Code": "29472", "Subject": "Optical Fiber Communication" },
+      { "Code": "29473", "Subject": "Satellite Communication and RADAR" }
+    ],
+    "8th Semester": [{ "Code": "26781", "Subject": "Industrial Attachment & Project Presentation" }]
+  },
+  "PrintingTechnology2022": {
+    "1st Semester": [
+      { "Code": "21011", "Subject": "Engineering Drawing" },
+      { "Code": "25711", "Subject": "Bangla-I" },
+      { "Code": "25712", "Subject": "English-I" },
+      { "Code": "25811", "Subject": "Social Science" },
+      { "Code": "25812", "Subject": "Physical Education & Life Skills Development" },
+      { "Code": "25911", "Subject": "Mathematics -I" },
+      { "Code": "25912", "Subject": "Physics -I" },
+      { "Code": "27011", "Subject": "Basic Workshop Practice" },
+      { "Code": "29511", "Subject": "Printing Basics" }
+    ],
+    "2nd Semester": [
+      { "Code": "25721", "Subject": "Bangla -II" },
+      { "Code": "25722", "Subject": "English-II" },
+      { "Code": "25921", "Subject": "Mathematics-II" },
+      { "Code": "25922", "Subject": "Physics-II" },
+      { "Code": "26611", "Subject": "Computer Office Application" },
+      { "Code": "26711", "Subject": "Basic Electricity" },
+      { "Code": "29521", "Subject": "Offset Machine Operation" }
+    ],
+    "3rd Semester": [
+      { "Code": "25831", "Subject": "Business Communication" },
+      { "Code": "25913", "Subject": "Chemistry" },
+      { "Code": "25931", "Subject": "Mathematics-III" },
+      { "Code": "26811", "Subject": "Basic Electronics" },
+      { "Code": "29531", "Subject": "Graphic Materials" },
+      { "Code": "29631", "Subject": "Graphic Design-I" },
+      { "Code": "29632", "Subject": "Basic Photography" }
+    ],
+    "4th Semester": [
+      { "Code": "25841", "Subject": "Accounting" },
+      { "Code": "29041", "Subject": "Environmental Studies" },
+      { "Code": "29541", "Subject": "Screen Printing" },
+      { "Code": "29542", "Subject": "Safety and Maintenance" },
+      { "Code": "29641", "Subject": "Image Carrier Preparation" },
+      { "Code": "29642", "Subject": "Graphic Design-II" },
+      { "Code": "29643", "Subject": "Video and Sound Editing" }
+    ],
+    "5th Semester": [
+      { "Code": "25852", "Subject": "Industrial Management" },
+      { "Code": "29551", "Subject": "Flexo & Can Printing" },
+      { "Code": "29552", "Subject": "Color Printing-I" },
+      { "Code": "29553", "Subject": "Printing Quality Control" },
+      { "Code": "29554", "Subject": "Ink & Paper" },
+      { "Code": "29555", "Subject": "Digital Design & Printing" },
+      { "Code": "29655", "Subject": "Graphic Design-III" }
+    ],
+    "6th Semester": [
+      { "Code": "25851", "Subject": "Principles of Marketing" },
+      { "Code": "29561", "Subject": "Printing Costing & Estimating" },
+      { "Code": "29562", "Subject": "Color Printing -II" },
+      { "Code": "29563", "Subject": "Printing Professional Practice -I" },
+      { "Code": "29564", "Subject": "Gravure Printing" },
+      { "Code": "29654", "Subject": "Packaging Design-I" },
+      { "Code": "29664", "Subject": "Image Manipulation" }
+    ],
+    "7th Semester": [
+      { "Code": "25853", "Subject": "Innovation & Entrepreneurship" },
+      { "Code": "29571", "Subject": "Color Printing-III" },
+      { "Code": "29572", "Subject": "Troubleshooting Management in Printing Industry" },
+      { "Code": "29573", "Subject": "Print Finishing" },
+      { "Code": "29574", "Subject": "Printing Professional Practice -II" },
+      { "Code": "29672", "Subject": "Packaging Design-II" },
+      { "Code": "29675", "Subject": "Graphic Communication" }
+    ],
+    "8th Semester": [{ "Code": "29581", "Subject": "Industrial Attachment & Project Presentation" }]
+  },
+  "GraphicDesignTechnology2022": {
+    "1st Semester": [
+      { "Code": "21011", "Subject": "Engineering Drawing" },
+      { "Code": "25711", "Subject": "Bangla-I" },
+      { "Code": "25712", "Subject": "English-I" },
+      { "Code": "25811", "Subject": "Social Science" },
+      { "Code": "25812", "Subject": "Physical Education & Life Skills Development" },
+      { "Code": "25911", "Subject": "Mathematics -I" },
+      { "Code": "25912", "Subject": "Physics -I" },
+      { "Code": "27011", "Subject": "Basic Workshop Practice" },
+      { "Code": "29511", "Subject": "Printing Basics" }
+    ],
+    "2nd Semester": [
+      { "Code": "25721", "Subject": "Bangla -II" },
+      { "Code": "25722", "Subject": "English-II" },
+      { "Code": "25921", "Subject": "Mathematics-II" },
+      { "Code": "25922", "Subject": "Physics-II" },
+      { "Code": "26611", "Subject": "Computer Office Application" },
+      { "Code": "26711", "Subject": "Basic Electricity" },
+      { "Code": "29521", "Subject": "Offset Machine Operation" }
+    ],
+    "3rd Semester": [
+      { "Code": "25831", "Subject": "Business Communication" },
+      { "Code": "25913", "Subject": "Chemistry" },
+      { "Code": "25931", "Subject": "Mathematics-III" },
+      { "Code": "26811", "Subject": "Basic Electronics" },
+      { "Code": "29531", "Subject": "Graphic Materials" },
+      { "Code": "29631", "Subject": "Graphic Design-I" },
+      { "Code": "29632", "Subject": "Basic Photography" }
+    ],
+    "4th Semester": [
+      { "Code": "25841", "Subject": "Accounting" },
+      { "Code": "29041", "Subject": "Environmental Studies" },
+      { "Code": "29541", "Subject": "Screen Printing" },
+      { "Code": "29542", "Subject": "Safety and Maintenance" },
+      { "Code": "29641", "Subject": "Image Carrier Preparation" },
+      { "Code": "29642", "Subject": "Graphic Design-II" },
+      { "Code": "29643", "Subject": "Video and Sound Editing" }
+    ],
+    "5th Semester": [
+      { "Code": "25852", "Subject": "Industrial Management" },
+      { "Code": "29555", "Subject": "Digital Design & Printing" },
+      { "Code": "29651", "Subject": "Advertising Design" },
+      { "Code": "29652", "Subject": "Fabric Design" },
+      { "Code": "29653", "Subject": "Design & Editing" },
+      { "Code": "29654", "Subject": "Packaging Design-I" },
+      { "Code": "29655", "Subject": "Graphic Design-III" }
+    ],
+    "6th Semester": [
+      { "Code": "25851", "Subject": "Principles of Marketing" },
+      { "Code": "29561", "Subject": "Printing Costing & Estimating" },
+      { "Code": "29661", "Subject": "Desktop Publishing" },
+      { "Code": "29662", "Subject": "Web Design & Development" },
+      { "Code": "29663", "Subject": "Graphic Design-IV" },
+      { "Code": "29664", "Subject": "Image Manipulation" },
+      { "Code": "29665", "Subject": "Graphic Professional Practice-I" }
+    ],
+    "7th Semester": [
+      { "Code": "25853", "Subject": "Innovation & Entrepreneurship" },
+      { "Code": "29671", "Subject": "Animation" },
+      { "Code": "29672", "Subject": "Packaging Design-II" },
+      { "Code": "29673", "Subject": "Advanced Digital Photography" },
+      { "Code": "29674", "Subject": "Graphic Design-V" },
+      { "Code": "29675", "Subject": "Graphic Communication" },
+      { "Code": "29676", "Subject": "Graphic Professional Practice-II" }
+    ],
+    "8th Semester": [{ "Code": "29681", "Subject": "Industrial Attachment & Project Presentation" }]
   }
 }

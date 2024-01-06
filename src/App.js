@@ -11,6 +11,7 @@ import CGPA from "./pages/CGPA";
 import About from "./pages/About";
 import NoticeBoard from "./pages/NoticeBoard";
 import BookList from "./pages/BookList";
+import NotPage from "./pages/NotPage";
 
 function App() {
   return (
@@ -28,6 +29,7 @@ function App() {
         <Route path="/notice?" element={<NoticeBoard />} />
         <Route path="/booklists" element={<BookList />} />
         <Route path="/booklists/:id" element={<BookList />} />
+        <Route path="/*" element={<NotPage />} />
       </Routes>
       <Footer />
     </>

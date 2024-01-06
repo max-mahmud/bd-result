@@ -74,7 +74,7 @@ const CgpaTable = () => {
           </thead>
           <tbody className="font-medium">
             {semeaster.map((item, i) => (
-              <tr className="bg-white border-b ">
+              <tr className="bg-white border-b " key={i}>
                 <td className="px-6 py-4">{item.name}</td>
                 <td className="px-6 py-4">{item[2010]}</td>
                 <td className="px-6 py-4">{item[2016]}</td>

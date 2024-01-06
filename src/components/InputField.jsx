@@ -26,7 +26,7 @@ const InputField = ({ handleChange, point, pointName }) => {
         inputProps={{
           min: 0,
           max: 4,
-          step: 1,
+          step: 0.01,
         }}
         onChange={(e) => handleChange(e)}
         value={point}

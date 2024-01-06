@@ -11,14 +11,26 @@ const BookList = () => {
   const path = location.pathname.split("/")[2];
 
   const navigate = useNavigate();
-  const handleClick = (data) => {
+
+  const handleClick = (data, year) => {
     const len = data.split(" ").length;
-    const newData = data
+    let newData = data
       .split(" ")
       .slice(0, len - 1)
       .join("-");
-    navigate(`/booklists/${newData}-2022`);
+    newData = newData
+      .replace(/[()&\s]/g, "-")
+      .split("--")
+      ?.join("-");
+    newData = newData?.split("--")?.join("-");
+    navigate(`/booklists/${newData}-${year}`, {
+      state: {
+        name: data,
+        year,
+      },
+    });
   };
+
   return (
     <>
       <div className="pt-20 container mx-auto ">
@@ -33,10 +45,10 @@ const BookList = () => {
                 <ul>
                   {bookData.Regulation2016.map((book, index) => (
                     <li
+                      onClick={() => handleClick(book, "2016")}
                       key={index}
-                      className="flex gap-2 items-center text-blue-500 py-1 cursor-pointer text-lg"
+                      className="flex gap-2 items-center text-blue-500 hover:text-blue-700  py-1 cursor-pointer text-lg"
                     >
-                      {" "}
                       <BsFillCaretRightFill /> {book}
                     </li>
                   ))}
@@ -48,9 +60,9 @@ const BookList = () => {
                 <ul>
                   {bookData.Regulation2022.map((book, index) => (
                     <li
-                      onClick={() => handleClick(book)}
+                      onClick={() => handleClick(book, "2022")}
                       key={index}
-                      className="flex gap-2 items-center text-blue-500 py-1 cursor-pointer text-lg"
+                      className="flex gap-2 items-center text-blue-500 hover:text-blue-700 py-1 cursor-pointer text-lg"
                     >
                       <BsFillCaretRightFill /> {book}
                     </li>
