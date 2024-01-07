@@ -29,3 +29,15 @@
     display: flex;
     gap: 10px;
 }
+.bg-primary{
+    background-color: #004940;
+}
+.bg-secondary{
+    background-color: #004346;
+}
+.btn-color{
+    background-color: #00695c;
+}
+.hov-color{
+    background-color: #33877c;
+}

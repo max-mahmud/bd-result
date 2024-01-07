@@ -11,49 +11,51 @@ const Navbar = () => {
   const [showShidebar, setShowShidebar] = useState(true);
   return (
     <>
-      <nav className="bg-slate-800 shadow-sm shadow-slate-500 fixed w-full z-10">
-        <div className="container mx-auto">
+      <nav className="bg-primary shadow-sm shadow-slate-500 fixed w-full z-10">
+        <div className="container mx-auto lg:px-0 px-2">
           <div className="flex justify-between h-16">
-            <Link to="/" className="flex items-center text-white text-lg font-bold">
+            <Link to="/" className="flex items-center text-white sm:text-lg sm:font-bold font-medium">
               BTEB Results Zone
             </Link>
-            <div className="flex">
-              <Link to="/result" className="ml-6 flex gap-1 items-center text-white hover:text-gray-300">
-                <IoPerson />
-                Individual Results
-              </Link>
-              <Link
-                to="/group-results"
-                className="ml-6 flex gap-1 items-center text-white hover:text-gray-300"
-              >
-                <HiUserGroup />
-                Group Results
-              </Link>
-              <Link
-                to="/institute-results"
-                className="ml-6 flex gap-1 items-center text-white hover:text-gray-300"
-              >
-                <MdSchool />
-                Institute Results
-              </Link>
-              <Link
-                to="/latest-results"
-                className="ml-6 flex gap-1 items-center text-white hover:text-gray-300"
-              >
-                <MdDateRange />
-                Latest Results
-              </Link>
-              <Link to="/favorites" className="ml-6 flex gap-1 items-center text-white hover:text-gray-300">
-                <IoHeart />
-                Favorites
-              </Link>
-              <Link
-                to="/cgpa-calculator"
-                className="ml-6 cursor-pointer flex gap-1 items-center text-white hover:text-gray-300"
-              >
-                <ImCalculator />
-                CGPA
-              </Link>
+            <div className="flex ">
+              <div className=" lg:flex hidden">
+                <Link to="/result" className="ml-6 flex gap-1 items-center text-white hover:text-gray-300">
+                  <IoPerson />
+                  Individual Results
+                </Link>
+                <Link
+                  to="/group-results"
+                  className="ml-6 flex gap-1 items-center text-white hover:text-gray-300"
+                >
+                  <HiUserGroup />
+                  Group Results
+                </Link>
+                <Link
+                  to="/institute-results"
+                  className="ml-6 flex gap-1 items-center text-white hover:text-gray-300"
+                >
+                  <MdSchool />
+                  Institute Results
+                </Link>
+                <Link
+                  to="/latest-results"
+                  className="ml-6 flex gap-1 items-center text-white hover:text-gray-300"
+                >
+                  <MdDateRange />
+                  Latest Results
+                </Link>
+                <Link to="/favorites" className="ml-6 flex gap-1 items-center text-white hover:text-gray-300">
+                  <IoHeart />
+                  Favorites
+                </Link>
+                <Link
+                  to="/cgpa-calculator"
+                  className="ml-6 cursor-pointer flex gap-1 items-center text-white hover:text-gray-300"
+                >
+                  <ImCalculator />
+                  CGPA
+                </Link>
+              </div>
               <div
                 onClick={() => setShowShidebar(!showShidebar)}
                 className="ml-6 text-xl cursor-pointer flex gap-1 items-center text-white hover:text-gray-300"
@@ -66,13 +68,13 @@ const Navbar = () => {
       </nav>
       {/* Side menu */}
       <nav
-        className={`w-[290px] z-[9999] transition-all duration-200 fixed  ${
+        className={`sm:w-[290px] w-[275px] z-[9999] transition-all duration-200 fixed  ${
           showShidebar ? "-left-[290px]" : "left-0"
         } top-0 overflow-y-auto bg-white h-screen `}
       >
-        <div className="flex flex-col justify-center items-center bg-slate-800 text-white h-[120px] ">
-          <h3 className="text-2xl">BTEB Results Zone</h3>
-          <h4>Results at your fingertips</h4>
+        <div className="flex flex-col justify-center items-center bg-primary text-white h-[120px] ">
+          <h3 className="sm:text-2xl text-xl">BTEB Results Zone</h3>
+          <p>Results at your fingertips</p>
         </div>
         <div className="flex flex-col gap-4 mt-3 text-lg ">
           <Link to="/" onClick={() => setShowShidebar(true)} className="ml-6 flex gap-1 items-center ">

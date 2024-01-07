@@ -47,7 +47,7 @@ const BookList = () => {
                     <li
                       onClick={() => handleClick(book, "2016")}
                       key={index}
-                      className="flex gap-2 items-center text-blue-500 hover:text-blue-700  py-1 cursor-pointer text-lg"
+                      className="flex gap-2 items-center bg-slate-200 py-1 px-4 mb-2  transition-all duration-300 hover:bg-slate-300 shadow-md cursor-pointer text-lg"
                     >
                       <BsFillCaretRightFill /> {book}
                     </li>
@@ -62,7 +62,7 @@ const BookList = () => {
                     <li
                       onClick={() => handleClick(book, "2022")}
                       key={index}
-                      className="flex gap-2 items-center text-blue-500 hover:text-blue-700 py-1 cursor-pointer text-lg"
+                      className="flex gap-2 items-center bg-slate-200 py-1 px-4 mb-2  transition-all duration-300 hover:bg-slate-300 shadow-md cursor-pointer text-lg"
                     >
                       <BsFillCaretRightFill /> {book}
                     </li>
@@ -72,9 +72,9 @@ const BookList = () => {
             </div>
           </div>
         ) : (
-          <div className="h-screen overflow-y-auto">
+          <div className="min-h-screen ">
             <Book path={path} />
-            <div className="absolute top-20 right-40">
+            <div className="fixed top-20 right-40 z-50">
               <Visit />
             </div>
           </div>

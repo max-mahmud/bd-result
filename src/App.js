@@ -12,6 +12,7 @@ import About from "./pages/About";
 import NoticeBoard from "./pages/NoticeBoard";
 import BookList from "./pages/BookList";
 import NotPage from "./pages/NotPage";
+import LateshResultInfo from "./pages/LateshResultInfo";
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
         <Route path="/group-results" element={<GroupResult />} />
         <Route path="/institute-results" element={<InstituteResult />} />
         <Route path="/latest-results" element={<LateshResult />} />
+        <Route path="/latest-results/:date" element={<LateshResultInfo />} />
         <Route path="/favorites" element={<Favorite />} />
         <Route path="/cgpa-calculator" element={<CGPA />} />
         <Route path="/about" element={<About />} />

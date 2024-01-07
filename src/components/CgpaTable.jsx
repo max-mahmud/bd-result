@@ -54,9 +54,9 @@ const CgpaTable = () => {
   return (
     <div className="py-10 w-3/4 ">
       <h4 className="text-3xl py-5 font-medium">Semeaster Wise GPA Priorities For Regulations</h4>
-      <div className="relative overflow-x-auto shadow-md sm:rounded-lg">
+      <div className="relative overflow-x-auto shadow-md sm:rounded-md">
         <table className="w-full text-sm text-left rtl:text-right text-gray-500 ">
-          <thead className=" text-gray-50 uppercase bg-gray-600 ">
+          <thead className=" text-gray-50 uppercase bg-secondary ">
             <tr>
               <th scope="col" className="px-6 py-3">
                 Semeaster
@@ -81,7 +81,7 @@ const CgpaTable = () => {
                 <td className="px-6 py-4">{item[2022]}</td>
               </tr>
             ))}
-            <tr className="bg-gray-100 border-b ">
+            <tr className="bg-gray-200 border-b ">
               <td className="px-6 py-4">{"Total"}</td>
               <td className="px-6 py-4">100%</td>
               <td className="px-6 py-4">100%</td>

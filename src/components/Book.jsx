@@ -37,10 +37,10 @@ const Book = ({ path }) => {
       <h4 className="text-4xl font-medium text-slate-700 pb-5 text-center w-3/5 ">{state?.name}</h4>
       {Object.keys(state?.year === "2016" ? bookData2[pathname] : bookData[pathname]).map((semester, i) => (
         <div key={i} className="mb-10 w-3/5 ">
-          <h3 className="text-2xl font-medium mb-2 text-center">{semester}</h3>
+          <h3 className="text-2xl font-medium mb-2 text-center text-slate-700">{semester}</h3>
 
           <table className=" text-sm text-left rtl:text-right text-gray-500 shadow-lg w-full">
-            <thead className="text-xs text-gray-100 uppercase bg-gray-700 ">
+            <thead className="text-xs text-gray-100 uppercase bg-secondary ">
               <tr>
                 <th scope="col" className="px-6 py-3">
                   Code

@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-import img1 from "../assets/img5.jpg";
+import group2 from "../assets/image/group2.jpg";
 import { FormControl, MenuItem, InputLabel, Select, TextField, Button } from "@mui/material";
 import { Link } from "react-router-dom";
 import data from "../assets/data.json";
@@ -43,14 +43,17 @@ const GroupResult = () => {
   };
 
   return (
-    <div className="w-full  min-h-screen overflow-hidden bg-slate-100">
+    <div className="w-full  min-h-screen overflow-hidden ">
       <div className=" container mt-16 mx-auto flex justify-center gap-5 px-5 pb-8 border-b border-slate-300">
         <div className="w-2/4 pt-8 flex items-center ">
-          <img className="w-[420px] h-[390px] ms-16" src={img1} alt="img" />
+          <img className="w-[420px] h-[390px] ms-16" src={group2} alt="img" />
         </div>
         <div className="w-2/4 flex flex-col items-center justify-center ">
           <h4 className="text-4xl font-semibold text-center mb-5">Individual Results</h4>
-          <form onSubmit={handleSubmit} className="flex flex-col gap-5 bg-white p-7 w-[400px] h-[380px] ">
+          <form
+            onSubmit={handleSubmit}
+            className="flex flex-col gap-5 shadow-md border p-7 w-[400px] h-[380px] "
+          >
             <FormControl fullWidth>
               <InputLabel id="demo-simple-select-label">Exam</InputLabel>
               <Select
@@ -121,7 +124,7 @@ const GroupResult = () => {
               onChange={(e) => setRoll(e.target.value)}
               value={roll}
             />
-            <Button type="submit" variant="contained">
+            <Button type="submit" variant="contained" color="success">
               Submit
             </Button>
           </form>

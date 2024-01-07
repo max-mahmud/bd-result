@@ -1,5 +1,5 @@
 import { useState } from "react";
-import img1 from "../assets/img7.jpg";
+import individual from "../assets/image/individual.jpg";
 import { FormControl, MenuItem, InputLabel, Select, TextField, Button } from "@mui/material";
 import data from "../assets/data.json";
 import Visit from "../components/Visit";
@@ -14,14 +14,17 @@ const Individual = () => {
     console.log(exam, regulation, roll);
   };
   return (
-    <div className="w-full  min-h-screen overflow-hidden bg-slate-100">
+    <div className="w-full  min-h-screen overflow-hidden ">
       <div className=" container mt-16 mx-auto flex justify-center gap-5 px-5">
         <div className="w-2/4 mt-5 flex ">
-          <img className="w-[420px] h-[390px] ms-16" src={img1} alt="img" />
+          <img className="w-[420px] h-[390px] ms-16" src={individual} alt="img" />
         </div>
         <div className="w-2/4 flex flex-col items-center justify-center ">
           <h4 className="text-4xl font-semibold text-center mb-5">Individual Results</h4>
-          <form onSubmit={handleSubmit} className="flex flex-col gap-5 bg-white p-7 w-[400px] h-[320px] ">
+          <form
+            onSubmit={handleSubmit}
+            className="flex flex-col gap-5 shadow-md border p-7 w-[400px] h-[320px] "
+          >
             <FormControl fullWidth>
               <InputLabel id="demo-simple-select-label">Exam</InputLabel>
               <Select
@@ -76,7 +79,7 @@ const Individual = () => {
               onChange={(e) => setRoll(e.target.value)}
               value={roll}
             />
-            <Button type="submit" variant="contained">
+            <Button type="submit" variant="contained" color="success">
               Submit
             </Button>
           </form>

@@ -175,16 +175,16 @@ const CgpaCalculate = () => {
             />
           </div>
           <div className="flex justify-between items-center">
-            <Button type="submit" variant="contained">
-              =
+            <Button type="submit" variant="contained" color="success">
+              Calculate
             </Button>
             {point && (
               <div className="text-green-600 ">
                 CGPA <span className="text-3xl font-bold">{point}</span>
               </div>
             )}
-            <Button onClick={resetData} variant="contained">
-              AC
+            <Button onClick={resetData} variant="contained" color="success">
+              Reset
             </Button>
           </div>
         </form>
@@ -230,7 +230,7 @@ const CgpaCalculate = () => {
               ))}
             </Select>
           </FormControl>
-          <Button type="submit" variant="contained">
+          <Button type="submit" variant="contained" color="success">
             Fill Up Results
           </Button>
         </form>

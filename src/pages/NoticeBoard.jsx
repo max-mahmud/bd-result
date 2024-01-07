@@ -1,5 +1,5 @@
-import React from "react";
-import { Link, useLocation, useParams } from "react-router-dom";
+import React, { useState, useEffect } from "react";
+import { Link, useLocation } from "react-router-dom";
 import Visit from "../components/Visit";
 import NoticeTable from "../components/NoticeTable";
 
@@ -134,40 +134,59 @@ const NoticeBoard = () => {
 
   const filteredNotices = noticsData[path.toLowerCase()];
 
-  return (
-    <div className="w-full h-screen overflow-hidden bg-slate-100 pt-16 ">
-      {/*  */}
-      <div className="container mx-auto pt-4 text-slate-800 flex w-full h-screen">
-        <div className=" w-full h-[82vh] overflow-y-auto px-14 py-5">
-          <div className="w-2/3">
-            <div className=" text-center text-slate-700">
-              <h4 className="text-4xl">Latest Notices</h4>
-              <h4 className="text-2xl">Bangladesh Technical Education Board (BTEB)</h4>
+  const [visitTop, setVisitTop] = useState(80);
+  useEffect(() => {
+    const handleScroll = () => {
+      const scrollPosition = window.scrollY;
+      if (scrollPosition > 350) {
+        setVisitTop(40);
+      } else {
+        setVisitTop(80);
+      }
+    };
 
-              <div className="flex text-lg gap-8 border-b my-5 border-slate-300 font-medium text-slate-500">
-                {NavigateData.map((item, i) => (
-                  <Link
-                    key={i}
-                    to={`/notice?type=${item.link}`}
-                    className={` ${
-                      path === item.link ? "border-blue-600 text-blue-600" : ""
-                    }   hover:text-blue-600  py-2 hover:border-b-2 hover:border-blue-600 border-b-2 transition-all duration-300`}
-                  >
-                    {item.Name}
-                  </Link>
-                ))}
-              </div>
-              <div className="my-4">
-                <NoticeTable filteredNotices={filteredNotices} />
+    window.addEventListener("scroll", handleScroll);
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, []);
+
+  return (
+    <>
+      <div className="w-full min-h-screen overflow-hidden bg-slate-100 pt-16 ">
+        {/*  */}
+        <div className="container mx-auto pt-4 text-slate-800 flex w-full min-h-screen">
+          <div className=" w-full min-h-screen px-14 py-5">
+            <div className="w-2/3">
+              <div className=" text-center text-slate-700">
+                <h4 className="text-4xl">Latest Notices</h4>
+                <h4 className="text-2xl">Bangladesh Technical Education Board (BTEB)</h4>
+
+                <div className="flex text-lg gap-8 border-b my-5 border-slate-300 font-medium text-slate-500">
+                  {NavigateData.map((item, i) => (
+                    <Link
+                      key={i}
+                      to={`/notice?type=${item.link}`}
+                      className={` ${
+                        path === item.link ? "border-blue-600 text-blue-600" : ""
+                      }   hover:text-blue-600  py-2 hover:border-b-2 hover:border-blue-600 border-b-2 transition-all duration-300`}
+                    >
+                      {item.Name}
+                    </Link>
+                  ))}
+                </div>
+                <div className="my-4">
+                  <NoticeTable filteredNotices={filteredNotices} />
+                </div>
               </div>
             </div>
           </div>
         </div>
-        <div className="absolute top-20 right-40">
-          <Visit />
-        </div>
       </div>
-    </div>
+      <div style={{ top: `${visitTop}px` }} className="fixed right-40 z-50">
+        <Visit />
+      </div>
+    </>
   );
 };
 

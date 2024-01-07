@@ -11,7 +11,7 @@ const Visit = () => {
         <Link to="/institute-results">Institute Results</Link>
         <Link to="/cgpa-calculator">CGPA Calculator</Link>
         <Link to="/booklists">Booklists</Link>
-        <Link to="/favorites">Favorites</Link>
+        {/* <Link to="/favorites">Favorites</Link> */}
       </div>
     </div>
   );
