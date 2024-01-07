@@ -68,7 +68,7 @@ const Navbar = () => {
       </nav>
       {/* Side menu */}
       <nav
-        className={`sm:w-[290px] w-[275px] z-[9999] transition-all duration-200 fixed  ${
+        className={`sm:w-[290px] w-[275px] z-[999] transition-all duration-200 fixed  ${
           showShidebar ? "-left-[290px]" : "left-0"
         } top-0 overflow-y-auto bg-white h-screen `}
       >

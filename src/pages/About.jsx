@@ -4,8 +4,8 @@ import { FaFacebook, FaFacebookMessenger } from "react-icons/fa";
 const About = () => {
   return (
     <div className="bg-slate-100">
-      <div className="container mx-auto  pt-20 pb-7 font-serif">
-        <div className="w-3/5 mx-auto pb-10">
+      <div className="container mx-auto  pt-20 pb-7 font-serif px-2">
+        <div className="lg:w-3/5 w-full  mx-auto pb-10">
           <h4 className="text-2xl font-normal">About BTEB Results Zone</h4>
           <p>
             BTEB Results Zone is a web-based platform designed to provide polytechnic students in Bangladesh
@@ -14,7 +14,7 @@ const About = () => {
             the often time-consuming and cumbersome process of checking examination results.
           </p>
         </div>
-        <div className="w-3/5 mx-auto pb-10">
+        <div className="lg:w-3/5 w-full  mx-auto pb-10">
           <h4 className="text-2xl font-normal">About Developer:</h4>
           <p>
             Sakibul Islam, the creator of “BTEB Results Zone”, is a former student of Barisal Polytechnic
@@ -25,10 +25,10 @@ const About = () => {
             platforms.
           </p>
         </div>
-        <div className="w-3/5 mx-auto pb-10 flex gap-10 bg-white shadow-sm p-5 text-slate-600">
+        <div className="lg:w-3/5 w-full   mx-auto pb-10 flex md:flex-row flex-col gap-5 md:gap-10 items-center bg-white shadow-md p-5 text-slate-600">
           <img className="w-[170px] h-[170px] rounded-full overflow-hidden" src={img1} alt="img" />
-          <div>
-            <h4 className="text-4xl">Abc Name</h4>
+          <div className="md:text-left text-center">
+            <h4 className="md:text-4xl text-2xl">Abc Name</h4>
             <p>Abc developer</p>
             <div className="flex gap-4 mt-5">
               <span className="border bg-gray-100 px-4 py-1 flex gap-2 items-center ">

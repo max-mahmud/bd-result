@@ -4,6 +4,7 @@ import { FormControl, MenuItem, InputLabel, Select, TextField, Button } from "@m
 import { Link } from "react-router-dom";
 import data from "../assets/data.json";
 import Visit from "../components/Visit";
+import Loading from "../components/Loading";
 
 const allData = [
   {
@@ -36,23 +37,42 @@ const GroupResult = () => {
   const [regulation, setRegulation] = useState(2022);
   const [roll, setRoll] = useState("");
   const [semeaster, setSemeaster] = useState("4th");
+  const [loader, setLoader] = useState(true);
 
   const handleSubmit = (e) => {
     e.preventDefault();
     console.log(exam, regulation, roll);
   };
 
+  useEffect(() => {
+    const delay = setTimeout(() => {
+      setLoader(false);
+    }, 700);
+    return () => clearTimeout(delay);
+  }, []);
+
+  if (loader)
+    return (
+      <>
+        <Loading />
+      </>
+    );
+
   return (
     <div className="w-full  min-h-screen overflow-hidden ">
-      <div className=" container mt-16 mx-auto flex justify-center gap-5 px-5 pb-8 border-b border-slate-300">
-        <div className="w-2/4 pt-8 flex items-center ">
-          <img className="w-[420px] h-[390px] ms-16" src={group2} alt="img" />
+      <div className=" container lg:mt-16 md:mt-20 mt-14 mx-auto flex md:flex-row flex-col gap-5 items-center justify-around xl:gap-20 lg:gap-10 sm:px-1 px-2 pb-8 border-b border-slate-300">
+        <div className=" pt-8 flex items-center ">
+          <img
+            className="lg:w-[420px] sm:w-[330px] w-[300px] lg:h-[390px] sm:h-[320px] h-[299px]"
+            src={group2}
+            alt="img"
+          />
         </div>
-        <div className="w-2/4 flex flex-col items-center justify-center ">
-          <h4 className="text-4xl font-semibold text-center mb-5">Individual Results</h4>
+        <div className=" flex flex-col items-center justify-center ">
+          <h4 className="md:text-4xl text-2xl font-semibold text-center mb-5">Individual Results</h4>
           <form
             onSubmit={handleSubmit}
-            className="flex flex-col gap-5 shadow-md border p-7 w-[400px] h-[380px] "
+            className="flex flex-col gap-5 shadow-md border p-7 md:w-[400px] w-[320px] md:h-[380px] h-[360px] "
           >
             <FormControl fullWidth>
               <InputLabel id="demo-simple-select-label">Exam</InputLabel>
@@ -132,7 +152,7 @@ const GroupResult = () => {
       </div>
       {/*  */}
       <div className="container mx-auto pt-4 text-slate-800 flex w-full min-h-[100vh]">
-        <div className=" w-2/3 h-full overflow-y-auto px-14 py-5">
+        <div className="lg:w-2/3 w-full h-full overflow-y-auto lg:px-14 px-4 py-5">
           <div>
             <h4 className="text-2xl mb-3 font-medium">Individual's Results (Explained)</h4>
             <p className="font-serif">
@@ -178,7 +198,7 @@ const GroupResult = () => {
             </p>
           </div>
         </div>
-        <div className=" p-4 w-1/3 mt-3 h-full overflow-y-auto">
+        <div className="hidden lg:block p-4 w-1/3 mt-3 ">
           <Visit />
         </div>
       </div>

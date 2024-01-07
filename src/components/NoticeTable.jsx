@@ -7,13 +7,13 @@ const NoticeTable = ({ filteredNotices }) => {
       <table className="w-full text-sm text-left rtl:text-right text-gray-500 ">
         <thead className="text-xs text-gray-700 uppercase bg-gray-200 ">
           <tr>
-            <th scope="col" className="px-6 py-3">
+            <th scope="col" className="md:px-6 px-2 py-3">
               Date
             </th>
-            <th scope="col" className="px-6 py-3">
+            <th scope="col" className="md:px-6 px-2 py-3">
               Notice
             </th>
-            <th scope="col" className="px-6 py-3">
+            <th scope="col" className="md:px-6 px-2 py-3">
               Open
             </th>
           </tr>
@@ -21,11 +21,11 @@ const NoticeTable = ({ filteredNotices }) => {
         <tbody>
           {filteredNotices.map((item, i) => (
             <tr key={i} className="bg-white border-b ">
-              <th scope="row" className="px-6 py-4 font-medium text-gray-900 whitespace-nowrap ">
+              <th scope="row" className="md:px-6 px-2 py-4 font-medium text-gray-900 whitespace-nowrap ">
                 {item.date}
               </th>
-              <td className="px-6 py-4 text-slate-800">{item.notice}</td>
-              <td className="px-6 py-4 text-2xl">
+              <td className="md:px-6 px-2 py-4 text-slate-800">{item.notice}</td>
+              <td className="md:px-6 px-2 py-4 text-2xl">
                 <AiOutlineCloudDownload />
               </td>
             </tr>

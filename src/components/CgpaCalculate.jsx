@@ -107,8 +107,8 @@ const CgpaCalculate = () => {
   };
 
   return (
-    <div className="container mx-auto flex justify-around items-center py-5 border-b border-gray-300">
-      <div className="shadow-md bg-white shadow-slate-300 w-[400px] h-[480px] p-7">
+    <div className="container mx-auto flex lg:flex-row flex-col  gap-7 justify-around items-center py-5 border-b border-gray-300">
+      <div className="shadow-md bg-white shadow-slate-300 sm:w-[400px] w-[340px] h-[480px] p-7">
         <h4 className="text-3xl text-center mb-4">CGPA Calculator</h4>
         <form onSubmit={handleSubmit}>
           <FormControl fullWidth className="myTop">
@@ -126,7 +126,7 @@ const CgpaCalculate = () => {
               <MenuItem value={2022}>2022</MenuItem>
             </Select>
           </FormControl>
-          <div className="flex gap-4 my-4 w-[400px]">
+          <div className="flex gap-4 my-4 sm:w-[400px]  w-[285px]">
             <InputField
               point={semeasterData["1st"]}
               handleChange={(e) => handleChange("1st", e.target.value)}
@@ -138,7 +138,7 @@ const CgpaCalculate = () => {
               pointName="2nd"
             />
           </div>
-          <div className="flex gap-4  my-4 w-[400px]">
+          <div className="flex gap-4  my-4 sm:w-[400px]  w-[285px]">
             <InputField
               point={semeasterData["3rd"]}
               handleChange={(e) => handleChange("3rd", e.target.value)}
@@ -150,7 +150,7 @@ const CgpaCalculate = () => {
               pointName="4th"
             />
           </div>
-          <div className="flex gap-4  my-4 w-[400px]">
+          <div className="flex gap-4  my-4 sm:w-[400px]  w-[285px]">
             <InputField
               point={semeasterData["5th"]}
               handleChange={(e) => handleChange("5th", e.target.value)}
@@ -162,7 +162,7 @@ const CgpaCalculate = () => {
               pointName="6th"
             />
           </div>
-          <div className="flex gap-4  my-4 w-[400px]">
+          <div className="flex gap-4  my-4 sm:w-[400px]  w-[285px]">
             <InputField
               point={semeasterData["7th"]}
               handleChange={(e) => handleChange("7th", e.target.value)}
@@ -189,7 +189,7 @@ const CgpaCalculate = () => {
           </div>
         </form>
       </div>
-      <div className="shadow-md bg-white shadow-slate-300 w-[400px] h-[340px] p-7 flex flex-col gap-7">
+      <div className="shadow-md bg-white shadow-slate-300 sm:w-[400px] w-[330px] h-[340px] p-7 flex flex-col gap-7">
         <h4 className="text-3xl">CGPA Calculator</h4>
         <form onSubmit={fillUpData} className="flex flex-col gap-7">
           <TextField

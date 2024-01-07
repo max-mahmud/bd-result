@@ -13,6 +13,7 @@ import NoticeBoard from "./pages/NoticeBoard";
 import BookList from "./pages/BookList";
 import NotPage from "./pages/NotPage";
 import LateshResultInfo from "./pages/LateshResultInfo";
+import ButtomToTop from "./components/ButtomToTop";
 
 function App() {
   return (
@@ -33,6 +34,7 @@ function App() {
         <Route path="/booklists/:id" element={<BookList />} />
         <Route path="/*" element={<NotPage />} />
       </Routes>
+      <ButtomToTop />
       <Footer />
     </>
   );

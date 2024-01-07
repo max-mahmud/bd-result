@@ -2,6 +2,11 @@
 @tailwind components;
 @tailwind utilities;
 
+
+html {
+    scroll-behavior: smooth;
+  }
+
 ::-webkit-scrollbar {
     display: none;
   }
@@ -41,3 +46,18 @@
 .hov-color{
     background-color: #33877c;
 }
+
+.scroll-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #388e3c;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .scroll-to-top:hover {
+    background-color: #43a047;
+  }

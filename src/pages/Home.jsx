@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import notice from "../assets/image/notice.jpg";
 import hero from "../assets/image/img7.jpg";
 import group from "../assets/image/img6.jpg";
@@ -9,8 +9,24 @@ import check from "../assets/image/check.jpg";
 import customize from "../assets/image/customize.jpg";
 import calculate from "../assets/image/calculate.jpg";
 import Hero from "../components/Hero";
+import Loading from "../components/Loading";
 
 const Home = () => {
+  const [loader, setLoader] = useState(true);
+  useEffect(() => {
+    const delay = setTimeout(() => {
+      setLoader(false);
+    }, 700);
+    return () => clearTimeout(delay);
+  }, []);
+
+  if (loader) {
+    return (
+      <>
+        <Loading />
+      </>
+    );
+  }
   return (
     <>
       <div className=" md:pt-16 pt-20 text-slate-800">

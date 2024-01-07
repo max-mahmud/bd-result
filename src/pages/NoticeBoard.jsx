@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React from "react";
 import { Link, useLocation } from "react-router-dom";
 import Visit from "../components/Visit";
 import NoticeTable from "../components/NoticeTable";
@@ -134,35 +134,18 @@ const NoticeBoard = () => {
 
   const filteredNotices = noticsData[path.toLowerCase()];
 
-  const [visitTop, setVisitTop] = useState(80);
-  useEffect(() => {
-    const handleScroll = () => {
-      const scrollPosition = window.scrollY;
-      if (scrollPosition > 350) {
-        setVisitTop(40);
-      } else {
-        setVisitTop(80);
-      }
-    };
-
-    window.addEventListener("scroll", handleScroll);
-    return () => {
-      window.removeEventListener("scroll", handleScroll);
-    };
-  }, []);
-
   return (
     <>
       <div className="w-full min-h-screen overflow-hidden bg-slate-100 pt-16 ">
         {/*  */}
         <div className="container mx-auto pt-4 text-slate-800 flex w-full min-h-screen">
-          <div className=" w-full min-h-screen px-14 py-5">
-            <div className="w-2/3">
+          <div className=" w-full min-h-screen sm:px-8 px-2 py-5">
+            <div className="lg:w-2/3 w-full">
               <div className=" text-center text-slate-700">
-                <h4 className="text-4xl">Latest Notices</h4>
-                <h4 className="text-2xl">Bangladesh Technical Education Board (BTEB)</h4>
+                <h4 className="md:text-4xl text-2xl font-medium mb-2">Latest Notices</h4>
+                <h4 className="md:text-2xl text-lg">Bangladesh Technical Education Board (BTEB)</h4>
 
-                <div className="flex text-lg gap-8 border-b my-5 border-slate-300 font-medium text-slate-500">
+                <div className="flex md:text-lg text-sm sm:text-base md:gap-8 gap-2 border-b  my-5 border-slate-300 font-medium text-slate-500">
                   {NavigateData.map((item, i) => (
                     <Link
                       key={i}
@@ -183,7 +166,7 @@ const NoticeBoard = () => {
           </div>
         </div>
       </div>
-      <div style={{ top: `${visitTop}px` }} className="fixed right-40 z-50">
+      <div className="hidden lg:block fixed xl:right-40 right-28 top-20  z-50">
         <Visit />
       </div>
     </>

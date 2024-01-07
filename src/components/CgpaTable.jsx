@@ -52,22 +52,22 @@ const CgpaTable = () => {
     },
   ];
   return (
-    <div className="py-10 w-3/4 ">
+    <div className="py-10 md:w-3/4 w-full md:px-0 px-4 ">
       <h4 className="text-3xl py-5 font-medium">Semeaster Wise GPA Priorities For Regulations</h4>
       <div className="relative overflow-x-auto shadow-md sm:rounded-md">
         <table className="w-full text-sm text-left rtl:text-right text-gray-500 ">
           <thead className=" text-gray-50 uppercase bg-secondary ">
             <tr>
-              <th scope="col" className="px-6 py-3">
+              <th scope="col" className="sm:px-6 px-2 py-3">
                 Semeaster
               </th>
-              <th scope="col" className="px-6 py-3">
+              <th scope="col" className="sm:px-6 px-2 py-3">
                 2010
               </th>
-              <th scope="col" className="px-6 py-3">
+              <th scope="col" className="sm:px-6 px-2 py-3">
                 2016
               </th>
-              <th scope="col" className="px-6 py-3">
+              <th scope="col" className="sm:px-6 px-2 py-3">
                 2022
               </th>
             </tr>
@@ -75,17 +75,17 @@ const CgpaTable = () => {
           <tbody className="font-medium">
             {semeaster.map((item, i) => (
               <tr className="bg-white border-b " key={i}>
-                <td className="px-6 py-4">{item.name}</td>
-                <td className="px-6 py-4">{item[2010]}</td>
-                <td className="px-6 py-4">{item[2016]}</td>
-                <td className="px-6 py-4">{item[2022]}</td>
+                <td className="sm:px-6 px-2 py-4">{item.name}</td>
+                <td className="sm:px-6 px-2 py-4">{item[2010]}</td>
+                <td className="sm:px-6 px-2 py-4">{item[2016]}</td>
+                <td className="sm:px-6 px-2 py-4">{item[2022]}</td>
               </tr>
             ))}
             <tr className="bg-gray-200 border-b ">
-              <td className="px-6 py-4">{"Total"}</td>
-              <td className="px-6 py-4">100%</td>
-              <td className="px-6 py-4">100%</td>
-              <td className="px-6 py-4">100%</td>
+              <td className="sm:px-6 px-2 py-4">{"Total"}</td>
+              <td className="sm:px-6 px-2 py-4">100%</td>
+              <td className="sm:px-6 px-2 py-4">100%</td>
+              <td className="sm:px-6 px-2 py-4">100%</td>
             </tr>
           </tbody>
         </table>
